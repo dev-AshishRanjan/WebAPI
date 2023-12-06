@@ -1,0 +1,952 @@
+[
+  {
+    "id": 45068,
+    "name": "Fuaxiao Chuanqi",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/45068.jpg?1701409109",
+      "preview": "https://shikimori.one/system/animes/preview/45068.jpg?1701409109",
+      "x96": "https://shikimori.one/system/animes/x96/45068.jpg?1701409109",
+      "x48": "https://shikimori.one/system/animes/x48/45068.jpg?1701409109"
+    },
+    "url": "https://shikimori.one/animes/45068-fuaxiao-chuanqi",
+    "kind": "movie",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2018-01-04",
+    "released_on": null
+  },
+  {
+    "id": 29235,
+    "name": "Ninja Hattori-kun Plus Perman: Chounouryoku Wars",
+    "russian": "Ниндзя Хаттори + Супермалыш: Сверхъестественные войны",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/29235.jpg?1701429887",
+      "preview": "https://shikimori.one/system/animes/preview/29235.jpg?1701429887",
+      "x96": "https://shikimori.one/system/animes/x96/29235.jpg?1701429887",
+      "x48": "https://shikimori.one/system/animes/x48/29235.jpg?1701429887"
+    },
+    "url": "https://shikimori.one/animes/29235-ninja-hattori-kun-plus-perman-chounouryoku-wars",
+    "kind": "movie",
+    "score": "6.01",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1984-03-17",
+    "released_on": null
+  },
+  {
+    "id": 4536,
+    "name": "Muteki Robo Trider G7",
+    "russian": "Непобедимый робот Трайдер Джи-7",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/4536.jpg?1701428195",
+      "preview": "https://shikimori.one/system/animes/preview/4536.jpg?1701428195",
+      "x96": "https://shikimori.one/system/animes/x96/4536.jpg?1701428195",
+      "x48": "https://shikimori.one/system/animes/x48/4536.jpg?1701428195"
+    },
+    "url": "https://shikimori.one/animes/4536-muteki-robo-trider-g7",
+    "kind": "tv",
+    "score": "6.5",
+    "status": "released",
+    "episodes": 50,
+    "episodes_aired": 0,
+    "aired_on": "1980-02-02",
+    "released_on": "1981-01-03"
+  },
+  {
+    "id": 3067,
+    "name": "Saraba Uchuu Senkan Yamato: Ai no Senshi-tachi",
+    "russian": "Прощай, космический линкор Ямато: Воины любви",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/3067.jpg?1701437612",
+      "preview": "https://shikimori.one/system/animes/preview/3067.jpg?1701437612",
+      "x96": "https://shikimori.one/system/animes/x96/3067.jpg?1701437612",
+      "x48": "https://shikimori.one/system/animes/x48/3067.jpg?1701437612"
+    },
+    "url": "https://shikimori.one/animes/3067-saraba-uchuu-senkan-yamato-ai-no-senshi-tachi",
+    "kind": "movie",
+    "score": "7.09",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1978-08-05",
+    "released_on": null
+  },
+  {
+    "id": 10581,
+    "name": "Kidou Senshi Gundam 0083: Stardust Memory - Uchuu no Kagerou",
+    "russian": "Мобильный воин Гандам 0083: Память о Звёздной пыли — Космическая бабочка",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/10581.jpg?1701420191",
+      "preview": "https://shikimori.one/system/animes/preview/10581.jpg?1701420191",
+      "x96": "https://shikimori.one/system/animes/x96/10581.jpg?1701420191",
+      "x48": "https://shikimori.one/system/animes/x48/10581.jpg?1701420191"
+    },
+    "url": "https://shikimori.one/animes/10581-kidou-senshi-gundam-0083-stardust-memory-uchuu-no-kagerou",
+    "kind": "special",
+    "score": "5.93",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 1,
+    "aired_on": "1992-01-01",
+    "released_on": null
+  },
+  {
+    "id": 2786,
+    "name": "Bakegyamon",
+    "russian": "Бакэгямон",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/2786.jpg?1701399738",
+      "preview": "https://shikimori.one/system/animes/preview/2786.jpg?1701399738",
+      "x96": "https://shikimori.one/system/animes/x96/2786.jpg?1701399738",
+      "x48": "https://shikimori.one/system/animes/x48/2786.jpg?1701399738"
+    },
+    "url": "https://shikimori.one/animes/z2786-bakegyamon",
+    "kind": "tv",
+    "score": "6.59",
+    "status": "released",
+    "episodes": 51,
+    "episodes_aired": 0,
+    "aired_on": "2006-04-03",
+    "released_on": "2007-03-26"
+  },
+  {
+    "id": 12907,
+    "name": "Sekiei Ayakashi Mangatan",
+    "russian": "Сэкиэй, который рисует демонов",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/12907.jpg?1701438092",
+      "preview": "https://shikimori.one/system/animes/preview/12907.jpg?1701438092",
+      "x96": "https://shikimori.one/system/animes/x96/12907.jpg?1701438092",
+      "x48": "https://shikimori.one/system/animes/x48/12907.jpg?1701438092"
+    },
+    "url": "https://shikimori.one/animes/12907-sekiei-ayakashi-mangatan",
+    "kind": "ona",
+    "score": "5.69",
+    "status": "released",
+    "episodes": 3,
+    "episodes_aired": 1,
+    "aired_on": "2012-02-02",
+    "released_on": "2012-03-01"
+  },
+  {
+    "id": 52807,
+    "name": "One Punch Man 3",
+    "russian": "Ванпанчмен 3",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/52807.jpg?1698813967",
+      "preview": "https://shikimori.one/system/animes/preview/52807.jpg?1698813967",
+      "x96": "https://shikimori.one/system/animes/x96/52807.jpg?1698813967",
+      "x48": "https://shikimori.one/system/animes/x48/52807.jpg?1698813967"
+    },
+    "url": "https://shikimori.one/animes/52807-one-punch-man-3",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "anons",
+    "episodes": 0,
+    "episodes_aired": 0,
+    "aired_on": null,
+    "released_on": null
+  },
+  {
+    "id": 49469,
+    "name": "Beastars Final Season",
+    "russian": "Выдающиеся звери: Финал",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/49469.jpg?1698821178",
+      "preview": "https://shikimori.one/system/animes/preview/49469.jpg?1698821178",
+      "x96": "https://shikimori.one/system/animes/x96/49469.jpg?1698821178",
+      "x48": "https://shikimori.one/system/animes/x48/49469.jpg?1698821178"
+    },
+    "url": "https://shikimori.one/animes/49469-beastars-final-season",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "anons",
+    "episodes": 0,
+    "episodes_aired": 0,
+    "aired_on": "2024-01-01",
+    "released_on": null
+  },
+  {
+    "id": 49565,
+    "name": "Aoao Dai Bu",
+    "russian": "Надменно ожидая ареста",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/49565.jpg?1698821149",
+      "preview": "https://shikimori.one/system/animes/preview/49565.jpg?1698821149",
+      "x96": "https://shikimori.one/system/animes/x96/49565.jpg?1698821149",
+      "x48": "https://shikimori.one/system/animes/x48/49565.jpg?1698821149"
+    },
+    "url": "https://shikimori.one/animes/49565-aoao-dai-bu",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "anons",
+    "episodes": 0,
+    "episodes_aired": 0,
+    "aired_on": null,
+    "released_on": null
+  },
+  {
+    "id": 12903,
+    "name": "Tsushima Maru: Sayounara Okinawa",
+    "russian": "Цусима-мару: Прощай, Окинава",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/12903.jpg?1701446539",
+      "preview": "https://shikimori.one/system/animes/preview/12903.jpg?1701446539",
+      "x96": "https://shikimori.one/system/animes/x96/12903.jpg?1701446539",
+      "x48": "https://shikimori.one/system/animes/x48/12903.jpg?1701446539"
+    },
+    "url": "https://shikimori.one/animes/12903-tsushima-maru-sayounara-okinawa",
+    "kind": "movie",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1982-10-24",
+    "released_on": null
+  },
+  {
+    "id": 940,
+    "name": "Inukami!",
+    "russian": "Инуками!",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/940.jpg?1701416048",
+      "preview": "https://shikimori.one/system/animes/preview/940.jpg?1701416048",
+      "x96": "https://shikimori.one/system/animes/x96/940.jpg?1701416048",
+      "x48": "https://shikimori.one/system/animes/x48/940.jpg?1701416048"
+    },
+    "url": "https://shikimori.one/animes/z940-inukami",
+    "kind": "tv",
+    "score": "7.23",
+    "status": "released",
+    "episodes": 26,
+    "episodes_aired": 0,
+    "aired_on": "2006-04-06",
+    "released_on": "2006-09-28"
+  },
+  {
+    "id": 47974,
+    "name": "Lu Baobei Lan Di",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/47974.jpg?1696218921",
+      "preview": "https://shikimori.one/system/animes/preview/47974.jpg?1696218921",
+      "x96": "https://shikimori.one/system/animes/x96/47974.jpg?1696218921",
+      "x48": "https://shikimori.one/system/animes/x48/47974.jpg?1696218921"
+    },
+    "url": "https://shikimori.one/animes/47974-lu-baobei-lan-di",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 25,
+    "episodes_aired": 0,
+    "aired_on": "2019-01-01",
+    "released_on": null
+  },
+  {
+    "id": 6568,
+    "name": "Bokura no Saibanin Monogatari",
+    "russian": "Наши судейские истории",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/6568.jpg?1701401142",
+      "preview": "https://shikimori.one/system/animes/preview/6568.jpg?1701401142",
+      "x96": "https://shikimori.one/system/animes/x96/6568.jpg?1701401142",
+      "x48": "https://shikimori.one/system/animes/x48/6568.jpg?1701401142"
+    },
+    "url": "https://shikimori.one/animes/6568-bokura-no-saibanin-monogatari",
+    "kind": "ona",
+    "score": "5.31",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2009-05-21",
+    "released_on": null
+  },
+  {
+    "id": 51682,
+    "name": "Tomica Heroes Jobraver: Tokusou Gattai Robo",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/51682.jpg?1701836190",
+      "preview": "https://shikimori.one/system/animes/preview/51682.jpg?1701836190",
+      "x96": "https://shikimori.one/system/animes/x96/51682.jpg?1701836190",
+      "x48": "https://shikimori.one/system/animes/x48/51682.jpg?1701836190"
+    },
+    "url": "https://shikimori.one/animes/51682-tomica-heroes-jobraver-tokusou-gattai-robo",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "ongoing",
+    "episodes": 0,
+    "episodes_aired": 0,
+    "aired_on": "2022-04-22",
+    "released_on": null
+  },
+  {
+    "id": 3071,
+    "name": "Uchuu Senkan Yamato: Aratanaru Tabidachi",
+    "russian": "Космический линкор Ямато: Новый поход",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/3071.jpg?1701446942",
+      "preview": "https://shikimori.one/system/animes/preview/3071.jpg?1701446942",
+      "x96": "https://shikimori.one/system/animes/x96/3071.jpg?1701446942",
+      "x48": "https://shikimori.one/system/animes/x48/3071.jpg?1701446942"
+    },
+    "url": "https://shikimori.one/animes/3071-uchuu-senkan-yamato-aratanaru-tabidachi",
+    "kind": "special",
+    "score": "6.69",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1979-07-31",
+    "released_on": null
+  },
+  {
+    "id": 13171,
+    "name": "Wasurenagumo",
+    "russian": "Паучонок",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/13171.jpg?1701448704",
+      "preview": "https://shikimori.one/system/animes/preview/13171.jpg?1701448704",
+      "x96": "https://shikimori.one/system/animes/x96/13171.jpg?1701448704",
+      "x48": "https://shikimori.one/system/animes/x48/13171.jpg?1701448704"
+    },
+    "url": "https://shikimori.one/animes/13171-wasurenagumo",
+    "kind": "special",
+    "score": "7.03",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2012-03-12",
+    "released_on": null
+  },
+  {
+    "id": 51686,
+    "name": "Qian Ting Zong Dong Yuan 3: Caihong Baozang",
+    "russian": "Счастливые маленькие подлодки 3: Радужное сокровище",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/51686.jpg?1696212781",
+      "preview": "https://shikimori.one/system/animes/preview/51686.jpg?1696212781",
+      "x96": "https://shikimori.one/system/animes/x96/51686.jpg?1696212781",
+      "x48": "https://shikimori.one/system/animes/x48/51686.jpg?1696212781"
+    },
+    "url": "https://shikimori.one/animes/51686-qian-ting-zong-dong-yuan-3-caihong-baozang",
+    "kind": "movie",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2013-05-31",
+    "released_on": null
+  },
+  {
+    "id": 54119,
+    "name": "Fighting 32nd Olympic",
+    "russian": "Борьба: Тридцать вторая Олимпиада",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/54119.jpg?1696208134",
+      "preview": "https://shikimori.one/system/animes/preview/54119.jpg?1696208134",
+      "x96": "https://shikimori.one/system/animes/x96/54119.jpg?1696208134",
+      "x48": "https://shikimori.one/system/animes/x48/54119.jpg?1696208134"
+    },
+    "url": "https://shikimori.one/animes/54119-fighting-32nd-olympic",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2022-02-15",
+    "released_on": null
+  },
+  {
+    "id": 7900,
+    "name": "Super Child",
+    "russian": "Супермалыш",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/7900.jpg?1701442434",
+      "preview": "https://shikimori.one/system/animes/preview/7900.jpg?1701442434",
+      "x96": "https://shikimori.one/system/animes/x96/7900.jpg?1701442434",
+      "x48": "https://shikimori.one/system/animes/x48/7900.jpg?1701442434"
+    },
+    "url": "https://shikimori.one/animes/7900-super-child",
+    "kind": "movie",
+    "score": "2.9",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1994-07-23",
+    "released_on": null
+  },
+  {
+    "id": 807,
+    "name": "Tsubasa Chronicle: Tori Kago no Kuni no Himegimi",
+    "russian": "Хроника крыльев: Принцесса страны птичьей клетки",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/807.jpg?1701446370",
+      "preview": "https://shikimori.one/system/animes/preview/807.jpg?1701446370",
+      "x96": "https://shikimori.one/system/animes/x96/807.jpg?1701446370",
+      "x48": "https://shikimori.one/system/animes/x48/807.jpg?1701446370"
+    },
+    "url": "https://shikimori.one/animes/807-tsubasa-chronicle-tori-kago-no-kuni-no-himegimi",
+    "kind": "movie",
+    "score": "7.3",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2005-08-20",
+    "released_on": null
+  },
+  {
+    "id": 45099,
+    "name": "Zhu Dike: Guguai Dao Da Maoxian II",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/45099.jpg?1701452949",
+      "preview": "https://shikimori.one/system/animes/preview/45099.jpg?1701452949",
+      "x96": "https://shikimori.one/system/animes/x96/45099.jpg?1701452949",
+      "x48": "https://shikimori.one/system/animes/x48/45099.jpg?1701452949"
+    },
+    "url": "https://shikimori.one/animes/45099-zhu-dike-guguai-dao-da-maoxian-ii",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 26,
+    "episodes_aired": 0,
+    "aired_on": "2017-08-14",
+    "released_on": null
+  },
+  {
+    "id": 9061,
+    "name": "RPG Densetsu Hepoi",
+    "russian": "РПГ Легенда",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/9061.jpg?1701436652",
+      "preview": "https://shikimori.one/system/animes/preview/9061.jpg?1701436652",
+      "x96": "https://shikimori.one/system/animes/x96/9061.jpg?1701436652",
+      "x48": "https://shikimori.one/system/animes/x48/9061.jpg?1701436652"
+    },
+    "url": "https://shikimori.one/animes/9061-rpg-densetsu-hepoi",
+    "kind": "tv",
+    "score": "7.23",
+    "status": "released",
+    "episodes": 50,
+    "episodes_aired": 0,
+    "aired_on": "1990-10-06",
+    "released_on": "1991-09-28"
+  },
+  {
+    "id": 30027,
+    "name": "Meisaku World",
+    "russian": "Мир Мэйсаку",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/30027.jpg?1701426327",
+      "preview": "https://shikimori.one/system/animes/preview/30027.jpg?1701426327",
+      "x96": "https://shikimori.one/system/animes/x96/30027.jpg?1701426327",
+      "x48": "https://shikimori.one/system/animes/x48/30027.jpg?1701426327"
+    },
+    "url": "https://shikimori.one/animes/30027-meisaku-world",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 41,
+    "episodes_aired": 0,
+    "aired_on": "1988-04-04",
+    "released_on": "1989-03-23"
+  },
+  {
+    "id": 9785,
+    "name": "Meitantei Conan: Conan vs. Kid - Shark \u0026 Jewel",
+    "russian": "Детектив Конан: Конан против Кида — Акула и сокровище",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/9785.jpg?1701426422",
+      "preview": "https://shikimori.one/system/animes/preview/9785.jpg?1701426422",
+      "x96": "https://shikimori.one/system/animes/x96/9785.jpg?1701426422",
+      "x48": "https://shikimori.one/system/animes/x48/9785.jpg?1701426422"
+    },
+    "url": "https://shikimori.one/animes/9785-meitantei-conan-conan-vs-kid-shark-jewel",
+    "kind": "movie",
+    "score": "7.59",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2005-07-29",
+    "released_on": null
+  },
+  {
+    "id": 53155,
+    "name": "Dokuhaku Suru Universal Yoko Mercator Egg Man",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/53155.jpg?1696209902",
+      "preview": "https://shikimori.one/system/animes/preview/53155.jpg?1696209902",
+      "x96": "https://shikimori.one/system/animes/x96/53155.jpg?1696209902",
+      "x48": "https://shikimori.one/system/animes/x48/53155.jpg?1696209902"
+    },
+    "url": "https://shikimori.one/animes/53155-dokuhaku-suru-universal-yoko-mercator-egg-man",
+    "kind": "ova",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2009-01-07",
+    "released_on": null
+  },
+  {
+    "id": 21969,
+    "name": "Sore Ike! Anpanman: Yumeneko no Kuni no Nyanii",
+    "russian": "Вперёд, Анпанман! Нянии в стране кошачьей мечты",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/21969.jpg?1701441454",
+      "preview": "https://shikimori.one/system/animes/preview/21969.jpg?1701441454",
+      "x96": "https://shikimori.one/system/animes/x96/21969.jpg?1701441454",
+      "x48": "https://shikimori.one/system/animes/x48/21969.jpg?1701441454"
+    },
+    "url": "https://shikimori.one/animes/21969-sore-ike-anpanman-yumeneko-no-kuni-no-nyanii",
+    "kind": "movie",
+    "score": "6.55",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2004-07-17",
+    "released_on": null
+  },
+  {
+    "id": 34973,
+    "name": "Love Live! Sunshine!! 2nd Season",
+    "russian": "Живая любовь! Сияние!! 2",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/34973.jpg?1701423456",
+      "preview": "https://shikimori.one/system/animes/preview/34973.jpg?1701423456",
+      "x96": "https://shikimori.one/system/animes/x96/34973.jpg?1701423456",
+      "x48": "https://shikimori.one/system/animes/x48/34973.jpg?1701423456"
+    },
+    "url": "https://shikimori.one/animes/34973-love-live-sunshine-2nd-season",
+    "kind": "tv",
+    "score": "7.58",
+    "status": "released",
+    "episodes": 13,
+    "episodes_aired": 13,
+    "aired_on": "2017-10-07",
+    "released_on": "2017-12-30"
+  },
+  {
+    "id": 49233,
+    "name": "Youjo Senki II",
+    "russian": "Военная хроника маленькой девочки II",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/49233.jpg?1698821214",
+      "preview": "https://shikimori.one/system/animes/preview/49233.jpg?1698821214",
+      "x96": "https://shikimori.one/system/animes/x96/49233.jpg?1698821214",
+      "x48": "https://shikimori.one/system/animes/x48/49233.jpg?1698821214"
+    },
+    "url": "https://shikimori.one/animes/49233-youjo-senki-ii",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "anons",
+    "episodes": 0,
+    "episodes_aired": 0,
+    "aired_on": null,
+    "released_on": null
+  },
+  {
+    "id": 29,
+    "name": "Zipang",
+    "russian": "Дзипанг",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/29.jpg?1701453084",
+      "preview": "https://shikimori.one/system/animes/preview/29.jpg?1701453084",
+      "x96": "https://shikimori.one/system/animes/x96/29.jpg?1701453084",
+      "x48": "https://shikimori.one/system/animes/x48/29.jpg?1701453084"
+    },
+    "url": "https://shikimori.one/animes/29-zipang",
+    "kind": "tv",
+    "score": "7.48",
+    "status": "released",
+    "episodes": 26,
+    "episodes_aired": 0,
+    "aired_on": "2004-10-08",
+    "released_on": "2005-04-01"
+  },
+  {
+    "id": 20541,
+    "name": "Mikakunin de Shinkoukei",
+    "russian": "Помолвлена с незнакомцем",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/20541.jpg?1701426959",
+      "preview": "https://shikimori.one/system/animes/preview/20541.jpg?1701426959",
+      "x96": "https://shikimori.one/system/animes/x96/20541.jpg?1701426959",
+      "x48": "https://shikimori.one/system/animes/x48/20541.jpg?1701426959"
+    },
+    "url": "https://shikimori.one/animes/20541-mikakunin-de-shinkoukei",
+    "kind": "tv",
+    "score": "7.37",
+    "status": "released",
+    "episodes": 12,
+    "episodes_aired": 12,
+    "aired_on": "2014-01-09",
+    "released_on": "2014-03-27"
+  },
+  {
+    "id": 3952,
+    "name": "Blue Seed 1.5",
+    "russian": "Голубое семя 1.5",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/3952.jpg?1701400905",
+      "preview": "https://shikimori.one/system/animes/preview/3952.jpg?1701400905",
+      "x96": "https://shikimori.one/system/animes/x96/3952.jpg?1701400905",
+      "x48": "https://shikimori.one/system/animes/x48/3952.jpg?1701400905"
+    },
+    "url": "https://shikimori.one/animes/3952-blue-seed-1-5",
+    "kind": "ova",
+    "score": "6.37",
+    "status": "released",
+    "episodes": 2,
+    "episodes_aired": 0,
+    "aired_on": "1996-06-21",
+    "released_on": null
+  },
+  {
+    "id": 45012,
+    "name": "Dou Fu Chuan",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/45012.jpg?1701406542",
+      "preview": "https://shikimori.one/system/animes/preview/45012.jpg?1701406542",
+      "x96": "https://shikimori.one/system/animes/x96/45012.jpg?1701406542",
+      "x48": "https://shikimori.one/system/animes/x48/45012.jpg?1701406542"
+    },
+    "url": "https://shikimori.one/animes/45012-dou-fu-chuan",
+    "kind": "movie",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2017-07-28",
+    "released_on": null
+  },
+  {
+    "id": 10674,
+    "name": "Omake",
+    "russian": "Фрагменты",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/10674.jpg?1701431322",
+      "preview": "https://shikimori.one/system/animes/preview/10674.jpg?1701431322",
+      "x96": "https://shikimori.one/system/animes/x96/10674.jpg?1701431322",
+      "x48": "https://shikimori.one/system/animes/x48/10674.jpg?1701431322"
+    },
+    "url": "https://shikimori.one/animes/10674-omake",
+    "kind": "movie",
+    "score": "5.08",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2003-01-01",
+    "released_on": null
+  },
+  {
+    "id": 45237,
+    "name": "Qianfang Gaoneng: Huaji",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/45237.jpg?1701435273",
+      "preview": "https://shikimori.one/system/animes/preview/45237.jpg?1701435273",
+      "x96": "https://shikimori.one/system/animes/x96/45237.jpg?1701435273",
+      "x48": "https://shikimori.one/system/animes/x48/45237.jpg?1701435273"
+    },
+    "url": "https://shikimori.one/animes/45237-qianfang-gaoneng-huaji",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 8,
+    "episodes_aired": 0,
+    "aired_on": "2017-01-13",
+    "released_on": "2017-02-10"
+  },
+  {
+    "id": 33310,
+    "name": "Peach Command Shin Momotarou Densetsu",
+    "russian": "Новая легенда о Момотаро",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/33310.jpg?1701432880",
+      "preview": "https://shikimori.one/system/animes/preview/33310.jpg?1701432880",
+      "x96": "https://shikimori.one/system/animes/x96/33310.jpg?1701432880",
+      "x48": "https://shikimori.one/system/animes/x48/33310.jpg?1701432880"
+    },
+    "url": "https://shikimori.one/animes/33310-peach-command-shin-momotarou-densetsu",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 24,
+    "episodes_aired": 0,
+    "aired_on": "1990-10-08",
+    "released_on": "1991-04-01"
+  },
+  {
+    "id": 935,
+    "name": "Witchblade",
+    "russian": "Клинок ведьм",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/935.jpg?1701449007",
+      "preview": "https://shikimori.one/system/animes/preview/935.jpg?1701449007",
+      "x96": "https://shikimori.one/system/animes/x96/935.jpg?1701449007",
+      "x48": "https://shikimori.one/system/animes/x48/935.jpg?1701449007"
+    },
+    "url": "https://shikimori.one/animes/935-witchblade",
+    "kind": "tv",
+    "score": "7.22",
+    "status": "released",
+    "episodes": 24,
+    "episodes_aired": 0,
+    "aired_on": "2006-04-06",
+    "released_on": "2006-09-21"
+  },
+  {
+    "id": 25283,
+    "name": "Kuusen Madoushi Kouhosei no Kyoukan",
+    "russian": "Инструктор кандидатов в воздушные боевые маги",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/25283.jpg?1701422428",
+      "preview": "https://shikimori.one/system/animes/preview/25283.jpg?1701422428",
+      "x96": "https://shikimori.one/system/animes/x96/25283.jpg?1701422428",
+      "x48": "https://shikimori.one/system/animes/x48/25283.jpg?1701422428"
+    },
+    "url": "https://shikimori.one/animes/25283-kuusen-madoushi-kouhosei-no-kyoukan",
+    "kind": "tv",
+    "score": "6.32",
+    "status": "released",
+    "episodes": 12,
+    "episodes_aired": 12,
+    "aired_on": "2015-07-09",
+    "released_on": "2015-09-24"
+  },
+  {
+    "id": 44005,
+    "name": "Xi Yangyang Yu Hui Tailang: Yangyang Deyi Xi Yangyang",
+    "russian": "Милый козлик и серый волк: Торжество милого козлика",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/44005.jpg?1701449546",
+      "preview": "https://shikimori.one/system/animes/preview/44005.jpg?1701449546",
+      "x96": "https://shikimori.one/system/animes/x96/44005.jpg?1701449546",
+      "x48": "https://shikimori.one/system/animes/x48/44005.jpg?1701449546"
+    },
+    "url": "https://shikimori.one/animes/44005-xi-yangyang-yu-hui-tailang-yangyang-deyi-xi-yangyang",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 365,
+    "episodes_aired": 0,
+    "aired_on": "2015-07-15",
+    "released_on": null
+  },
+  {
+    "id": 45182,
+    "name": "Yin Cha Zhi Kung Fu Xue Yuan",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/45182.jpg?1701450910",
+      "preview": "https://shikimori.one/system/animes/preview/45182.jpg?1701450910",
+      "x96": "https://shikimori.one/system/animes/x96/45182.jpg?1701450910",
+      "x48": "https://shikimori.one/system/animes/x48/45182.jpg?1701450910"
+    },
+    "url": "https://shikimori.one/animes/45182-yin-cha-zhi-kung-fu-xue-yuan",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 208,
+    "episodes_aired": 0,
+    "aired_on": "2007-01-01",
+    "released_on": null
+  },
+  {
+    "id": 40179,
+    "name": "Mini Toji: Yume",
+    "russian": "Мини-жрицы: Сон",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/40179.jpg?1701427095",
+      "preview": "https://shikimori.one/system/animes/preview/40179.jpg?1701427095",
+      "x96": "https://shikimori.one/system/animes/x96/40179.jpg?1701427095",
+      "x48": "https://shikimori.one/system/animes/x48/40179.jpg?1701427095"
+    },
+    "url": "https://shikimori.one/animes/40179-mini-toji-yume",
+    "kind": "special",
+    "score": "6.13",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2019-05-24",
+    "released_on": null
+  },
+  {
+    "id": 3234,
+    "name": "009-1: R\u0026B",
+    "russian": "009-1: Спецвыпуск",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/3234.jpg?1701396103",
+      "preview": "https://shikimori.one/system/animes/preview/3234.jpg?1701396103",
+      "x96": "https://shikimori.one/system/animes/x96/3234.jpg?1701396103",
+      "x48": "https://shikimori.one/system/animes/x48/3234.jpg?1701396103"
+    },
+    "url": "https://shikimori.one/animes/3234-009-1-r-b",
+    "kind": "special",
+    "score": "6.27",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2007-04-25",
+    "released_on": null
+  },
+  {
+    "id": 47523,
+    "name": "Haha Hua Xiao Ji",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/47523.jpg?1701411798",
+      "preview": "https://shikimori.one/system/animes/preview/47523.jpg?1701411798",
+      "x96": "https://shikimori.one/system/animes/x96/47523.jpg?1701411798",
+      "x48": "https://shikimori.one/system/animes/x48/47523.jpg?1701411798"
+    },
+    "url": "https://shikimori.one/animes/47523-haha-hua-xiao-ji",
+    "kind": "ona",
+    "score": "0.0",
+    "status": "released",
+    "episodes": 47,
+    "episodes_aired": 0,
+    "aired_on": "2017-11-10",
+    "released_on": "2018-11-17"
+  },
+  {
+    "id": 4664,
+    "name": "Rurouni Kenshin: Special Techniques",
+    "russian": "Бродяга Кэнсин: Специальные техники",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/4664.jpg?1701436880",
+      "preview": "https://shikimori.one/system/animes/preview/4664.jpg?1701436880",
+      "x96": "https://shikimori.one/system/animes/x96/4664.jpg?1701436880",
+      "x48": "https://shikimori.one/system/animes/x48/4664.jpg?1701436880"
+    },
+    "url": "https://shikimori.one/animes/4664-rurouni-kenshin-special-techniques",
+    "kind": "special",
+    "score": "7.17",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1997-10-21",
+    "released_on": null
+  },
+  {
+    "id": 51191,
+    "name": "Yi Ren Zhi Xia 5th season",
+    "russian": "Один из отвергнутых: Изгой 5",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/51191.jpg?1699238865",
+      "preview": "https://shikimori.one/system/animes/preview/51191.jpg?1699238865",
+      "x96": "https://shikimori.one/system/animes/x96/51191.jpg?1699238865",
+      "x48": "https://shikimori.one/system/animes/x48/51191.jpg?1699238865"
+    },
+    "url": "https://shikimori.one/animes/51191-yi-ren-zhi-xia-5th-season",
+    "kind": "ona",
+    "score": "6.7",
+    "status": "released",
+    "episodes": 12,
+    "episodes_aired": 12,
+    "aired_on": "2022-12-09",
+    "released_on": "2023-02-24"
+  },
+  {
+    "id": 20145,
+    "name": "Wagahai wa Neko de Aru",
+    "russian": "Ваш покорный слуга кот",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/20145.jpg?1701448334",
+      "preview": "https://shikimori.one/system/animes/preview/20145.jpg?1701448334",
+      "x96": "https://shikimori.one/system/animes/x96/20145.jpg?1701448334",
+      "x48": "https://shikimori.one/system/animes/x48/20145.jpg?1701448334"
+    },
+    "url": "https://shikimori.one/animes/20145-wagahai-wa-neko-de-aru",
+    "kind": "special",
+    "score": "5.63",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "1982-02-17",
+    "released_on": null
+  },
+  {
+    "id": 33997,
+    "name": "Yu☆Gi☆Oh! The Dark Side of Dimensions Special: Eien no Rival - Yuugi to Kaiba!",
+    "russian": "Югио! Тёмная сторона измерений — Вечные соперники Юги и Кайба",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/33997.jpg?1701452084",
+      "preview": "https://shikimori.one/system/animes/preview/33997.jpg?1701452084",
+      "x96": "https://shikimori.one/system/animes/x96/33997.jpg?1701452084",
+      "x48": "https://shikimori.one/system/animes/x48/33997.jpg?1701452084"
+    },
+    "url": "https://shikimori.one/animes/33997-yu-gi-oh-the-dark-side-of-dimensions-special-eien-no-rival-yuugi-to-kaiba",
+    "kind": "special",
+    "score": "6.75",
+    "status": "released",
+    "episodes": 1,
+    "episodes_aired": 0,
+    "aired_on": "2016-04-17",
+    "released_on": null
+  },
+  {
+    "id": 2337,
+    "name": "Tetsujin 28-gou (2004)",
+    "russian": "Железный человек №28",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/2337.jpg?1701444112",
+      "preview": "https://shikimori.one/system/animes/preview/2337.jpg?1701444112",
+      "x96": "https://shikimori.one/system/animes/x96/2337.jpg?1701444112",
+      "x48": "https://shikimori.one/system/animes/x48/2337.jpg?1701444112"
+    },
+    "url": "https://shikimori.one/animes/2337-tetsujin-28-gou-2004",
+    "kind": "tv",
+    "score": "7.33",
+    "status": "released",
+    "episodes": 26,
+    "episodes_aired": 0,
+    "aired_on": "2004-04-08",
+    "released_on": "2004-09-30"
+  },
+  {
+    "id": 56420,
+    "name": "Haigakura",
+    "russian": "Хаигакура",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/56420.jpg?1700815773",
+      "preview": "https://shikimori.one/system/animes/preview/56420.jpg?1700815773",
+      "x96": "https://shikimori.one/system/animes/x96/56420.jpg?1700815773",
+      "x48": "https://shikimori.one/system/animes/x48/56420.jpg?1700815773"
+    },
+    "url": "https://shikimori.one/animes/56420-haigakura",
+    "kind": "tv",
+    "score": "0.0",
+    "status": "anons",
+    "episodes": 0,
+    "episodes_aired": 0,
+    "aired_on": "2024-01-01",
+    "released_on": null
+  },
+  {
+    "id": 6970,
+    "name": "Choujin Sentai Baratack",
+    "russian": "Суперкоманда Баратак",
+    "image": {
+      "original": "https://shikimori.one/system/animes/original/6970.jpg?1701403812",
+      "preview": "https://shikimori.one/system/animes/preview/6970.jpg?1701403812",
+      "x96": "https://shikimori.one/system/animes/x96/6970.jpg?1701403812",
+      "x48": "https://shikimori.one/system/animes/x48/6970.jpg?1701403812"
+    },
+    "url": "https://shikimori.one/animes/6970-choujin-sentai-baratack",
+    "kind": "tv",
+    "score": "6.38",
+    "status": "released",
+    "episodes": 31,
+    "episodes_aired": 0,
+    "aired_on": "1977-07-03",
+    "released_on": "1978-03-05"
+  }
+]

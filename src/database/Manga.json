@@ -1,0 +1,952 @@
+[
+  {
+    "id": 28017,
+    "name": "Namida ni Nureta Koi",
+    "russian": "Люблю до слёз",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/28017.jpg?1695070006",
+      "preview": "https://shikimori.one/system/mangas/preview/28017.jpg?1695070006",
+      "x96": "https://shikimori.one/system/mangas/x96/28017.jpg?1695070006",
+      "x48": "https://shikimori.one/system/mangas/x48/28017.jpg?1695070006"
+    },
+    "url": "https://shikimori.one/mangas/28017-namida-ni-nureta-koi",
+    "kind": "manga",
+    "score": "6.46",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 5,
+    "aired_on": "2009-01-01",
+    "released_on": null
+  },
+  {
+    "id": 14562,
+    "name": "Hatsukoi Rocket",
+    "russian": "Ракеты первой любви",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/14562.jpg?1691663005",
+      "preview": "https://shikimori.one/system/mangas/preview/14562.jpg?1691663005",
+      "x96": "https://shikimori.one/system/mangas/x96/14562.jpg?1691663005",
+      "x48": "https://shikimori.one/system/mangas/x48/14562.jpg?1691663005"
+    },
+    "url": "https://shikimori.one/mangas/14562-hatsukoi-rocket",
+    "kind": "manga",
+    "score": "6.74",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 6,
+    "aired_on": "2005-05-26",
+    "released_on": null
+  },
+  {
+    "id": 153403,
+    "name": "For Snow White",
+    "russian": "Ради Белоснежки",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/153403.jpg?1700452705",
+      "preview": "https://shikimori.one/system/mangas/preview/153403.jpg?1700452705",
+      "x96": "https://shikimori.one/system/mangas/x96/153403.jpg?1700452705",
+      "x48": "https://shikimori.one/system/mangas/x48/153403.jpg?1700452705"
+    },
+    "url": "https://shikimori.one/mangas/153403-for-snow-white",
+    "kind": "manhwa",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2022-10-22",
+    "released_on": null
+  },
+  {
+    "id": 161726,
+    "name": "Ee, Nouryokunashi de Party Tsuihou sareta Ore ga Zenzokusei Mahoutsukai!?",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/161726.jpg?1701044622",
+      "preview": "https://shikimori.one/system/mangas/preview/161726.jpg?1701044622",
+      "x96": "https://shikimori.one/system/mangas/x96/161726.jpg?1701044622",
+      "x48": "https://shikimori.one/system/mangas/x48/161726.jpg?1701044622"
+    },
+    "url": "https://shikimori.one/mangas/161726-ee-nouryokunashi-de-party-tsuihou-sareta-ore-ga-zenzokusei-mahoutsukai",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2022-10-19",
+    "released_on": null
+  },
+  {
+    "id": 27901,
+    "name": "99's Amanojaku",
+    "russian": "Девяносто девять Аманодзяку",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/27901.jpg?1691634467",
+      "preview": "https://shikimori.one/system/mangas/preview/27901.jpg?1691634467",
+      "x96": "https://shikimori.one/system/mangas/x96/27901.jpg?1691634467",
+      "x48": "https://shikimori.one/system/mangas/x48/27901.jpg?1691634467"
+    },
+    "url": "https://shikimori.one/mangas/27901-99-s-amanojaku",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2010-12-24",
+    "released_on": null
+  },
+  {
+    "id": 39427,
+    "name": "Damned",
+    "russian": "Проклятый",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/39427.jpg?1691650246",
+      "preview": "https://shikimori.one/system/mangas/preview/39427.jpg?1691650246",
+      "x96": "https://shikimori.one/system/mangas/x96/39427.jpg?1691650246",
+      "x48": "https://shikimori.one/system/mangas/x48/39427.jpg?1691650246"
+    },
+    "url": "https://shikimori.one/mangas/39427-damned",
+    "kind": "manga",
+    "score": "6.19",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 26,
+    "aired_on": "1992-01-01",
+    "released_on": null
+  },
+  {
+    "id": 139826,
+    "name": "Kimi to Saigo no Hatsukoi wo",
+    "russian": "Ты и последняя первая любовь",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/139826.jpg?1696712456",
+      "preview": "https://shikimori.one/system/mangas/preview/139826.jpg?1696712456",
+      "x96": "https://shikimori.one/system/mangas/x96/139826.jpg?1696712456",
+      "x48": "https://shikimori.one/system/mangas/x48/139826.jpg?1696712456"
+    },
+    "url": "https://shikimori.one/mangas/139826-kimi-to-saigo-no-hatsukoi-wo",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 12,
+    "aired_on": "2017-02-03",
+    "released_on": "2017-12-29"
+  },
+  {
+    "id": 91052,
+    "name": "Star P: Anata wa Motto Kagayakeru",
+    "russian": "Звезда «Пи» — ты можешь светить ярче",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/91052.jpg?1693601156",
+      "preview": "https://shikimori.one/system/mangas/preview/91052.jpg?1693601156",
+      "x96": "https://shikimori.one/system/mangas/x96/91052.jpg?1693601156",
+      "x48": "https://shikimori.one/system/mangas/x48/91052.jpg?1693601156"
+    },
+    "url": "https://shikimori.one/mangas/91052-star-p-anata-wa-motto-kagayakeru",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 2,
+    "chapters": 10,
+    "aired_on": "2014-11-28",
+    "released_on": "2015-08-28"
+  },
+  {
+    "id": 23007,
+    "name": "Tokyo Junpaku-ka Keikaku",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/23007.jpg?1694897055",
+      "preview": "https://shikimori.one/system/mangas/preview/23007.jpg?1694897055",
+      "x96": "https://shikimori.one/system/mangas/x96/23007.jpg?1694897055",
+      "x48": "https://shikimori.one/system/mangas/x48/23007.jpg?1694897055"
+    },
+    "url": "https://shikimori.one/mangas/23007-tokyo-junpaku-ka-keikaku",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 0,
+    "aired_on": "2003-01-01",
+    "released_on": null
+  },
+  {
+    "id": 113539,
+    "name": "Kioku Capsule: Oniichan to, Mou Ichido",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/113539.jpg?1694466400",
+      "preview": "https://shikimori.one/system/mangas/preview/113539.jpg?1694466400",
+      "x96": "https://shikimori.one/system/mangas/x96/113539.jpg?1694466400",
+      "x48": "https://shikimori.one/system/mangas/x48/113539.jpg?1694466400"
+    },
+    "url": "https://shikimori.one/mangas/113539-kioku-capsule-oniichan-to-mou-ichido",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 4,
+    "chapters": 23,
+    "aired_on": "2014-01-31",
+    "released_on": "2016-08-25"
+  },
+  {
+    "id": 65641,
+    "name": "Boku no Ojiichan wa Hen na Hanashi suru!",
+    "russian": "Ну не могут истории моего дедушки быть такими странными!",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/65641.jpg?1691644526",
+      "preview": "https://shikimori.one/system/mangas/preview/65641.jpg?1691644526",
+      "x96": "https://shikimori.one/system/mangas/x96/65641.jpg?1691644526",
+      "x48": "https://shikimori.one/system/mangas/x48/65641.jpg?1691644526"
+    },
+    "url": "https://shikimori.one/mangas/65641-boku-no-ojiichan-wa-hen-na-hanashi-suru",
+    "kind": "manga",
+    "score": "6.79",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 44,
+    "aired_on": "2013-12-07",
+    "released_on": "2014-11-01"
+  },
+  {
+    "id": 126096,
+    "name": "Kiringaoka no Kokoroya",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/126096.jpg?1694812189",
+      "preview": "https://shikimori.one/system/mangas/preview/126096.jpg?1694812189",
+      "x96": "https://shikimori.one/system/mangas/x96/126096.jpg?1694812189",
+      "x48": "https://shikimori.one/system/mangas/x48/126096.jpg?1694812189"
+    },
+    "url": "https://shikimori.one/mangas/126096-kiringaoka-no-kokoroya",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 0,
+    "aired_on": "2005-01-01",
+    "released_on": "2006-01-01"
+  },
+  {
+    "id": 95686,
+    "name": "Shinpai Kaitou No Face",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/95686.jpg?1696022010",
+      "preview": "https://shikimori.one/system/mangas/preview/95686.jpg?1696022010",
+      "x96": "https://shikimori.one/system/mangas/x96/95686.jpg?1696022010",
+      "x48": "https://shikimori.one/system/mangas/x48/95686.jpg?1696022010"
+    },
+    "url": "https://shikimori.one/mangas/95686-shinpai-kaitou-no-face",
+    "kind": "one_shot",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 0,
+    "chapters": 1,
+    "aired_on": "2010-12-02",
+    "released_on": null
+  },
+  {
+    "id": 34091,
+    "name": "Rec: Kimi ga Naita Hi",
+    "russian": "Rec: День, когда ты плакала",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/34091.jpg?1695330746",
+      "preview": "https://shikimori.one/system/mangas/preview/34091.jpg?1695330746",
+      "x96": "https://shikimori.one/system/mangas/x96/34091.jpg?1695330746",
+      "x48": "https://shikimori.one/system/mangas/x48/34091.jpg?1695330746"
+    },
+    "url": "https://shikimori.one/mangas/34091-rec-kimi-ga-naita-hi",
+    "kind": "manga",
+    "score": "7.85",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 6,
+    "aired_on": "2010-11-02",
+    "released_on": "2011-02-03"
+  },
+  {
+    "id": 33333,
+    "name": "Uchuu Senkan Yamato",
+    "russian": "Космический линкор Ямато",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/33333.jpg?1695330604",
+      "preview": "https://shikimori.one/system/mangas/preview/33333.jpg?1695330604",
+      "x96": "https://shikimori.one/system/mangas/x96/33333.jpg?1695330604",
+      "x48": "https://shikimori.one/system/mangas/x48/33333.jpg?1695330604"
+    },
+    "url": "https://shikimori.one/mangas/33333-uchuu-senkan-yamato",
+    "kind": "manga",
+    "score": "6.74",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 18,
+    "aired_on": "1974-10-01",
+    "released_on": "1979-12-01"
+  },
+  {
+    "id": 25358,
+    "name": "Ranobe no Hen!",
+    "russian": "Завершение ранобэ!",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/25358.jpg?1695244835",
+      "preview": "https://shikimori.one/system/mangas/preview/25358.jpg?1695244835",
+      "x96": "https://shikimori.one/system/mangas/x96/25358.jpg?1695244835",
+      "x48": "https://shikimori.one/system/mangas/x48/25358.jpg?1695244835"
+    },
+    "url": "https://shikimori.one/mangas/25358-ranobe-no-hen",
+    "kind": "manga",
+    "score": "6.98",
+    "status": "released",
+    "volumes": 2,
+    "chapters": 11,
+    "aired_on": "2010-08-27",
+    "released_on": "2011-06-27"
+  },
+  {
+    "id": 15037,
+    "name": "Dosei Mansion",
+    "russian": "Дом на орбите",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/15037.jpg?1691652286",
+      "preview": "https://shikimori.one/system/mangas/preview/15037.jpg?1691652286",
+      "x96": "https://shikimori.one/system/mangas/x96/15037.jpg?1691652286",
+      "x48": "https://shikimori.one/system/mangas/x48/15037.jpg?1691652286"
+    },
+    "url": "https://shikimori.one/mangas/15037-dosei-mansion",
+    "kind": "manga",
+    "score": "7.5",
+    "status": "released",
+    "volumes": 7,
+    "chapters": 64,
+    "aired_on": "2005-11-25",
+    "released_on": "2011-06-25"
+  },
+  {
+    "id": 139032,
+    "name": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
+    "russian": "Я переродился торговым автоматом и скитаюсь по лабиринту",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/139032.jpg?1694294086",
+      "preview": "https://shikimori.one/system/mangas/preview/139032.jpg?1694294086",
+      "x96": "https://shikimori.one/system/mangas/x96/139032.jpg?1694294086",
+      "x48": "https://shikimori.one/system/mangas/x48/139032.jpg?1694294086"
+    },
+    "url": "https://shikimori.one/mangas/139032-jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou",
+    "kind": "manga",
+    "score": "6.81",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2021-08-27",
+    "released_on": null
+  },
+  {
+    "id": 103080,
+    "name": "Dolque!",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/103080.jpg?1691652059",
+      "preview": "https://shikimori.one/system/mangas/preview/103080.jpg?1691652059",
+      "x96": "https://shikimori.one/system/mangas/x96/103080.jpg?1691652059",
+      "x48": "https://shikimori.one/system/mangas/x48/103080.jpg?1691652059"
+    },
+    "url": "https://shikimori.one/mangas/103080-dolque",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 5,
+    "chapters": 47,
+    "aired_on": "2016-08-21",
+    "released_on": "2017-11-05"
+  },
+  {
+    "id": 122652,
+    "name": "Sweet Room?",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/122652.jpg?1696538426",
+      "preview": "https://shikimori.one/system/mangas/preview/122652.jpg?1696538426",
+      "x96": "https://shikimori.one/system/mangas/x96/122652.jpg?1696538426",
+      "x48": "https://shikimori.one/system/mangas/x48/122652.jpg?1696538426"
+    },
+    "url": "https://shikimori.one/mangas/122652-sweet-room",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 6,
+    "chapters": 89,
+    "aired_on": "2006-11-07",
+    "released_on": "2013-02-07"
+  },
+  {
+    "id": 134306,
+    "name": "Oujisama nante, Kocchi kara Negaisage desu wa!: Tsuihou sareta Moto Akuyaku Reijou, Mahou no Chikara de Mikaeshimasu",
+    "russian": "Я бы не стала встречаться с принцем, даже если бы ты попросил! Возвращение изгнанной злодейки с помощью магии",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/134306.jpg?1694294006",
+      "preview": "https://shikimori.one/system/mangas/preview/134306.jpg?1694294006",
+      "x96": "https://shikimori.one/system/mangas/x96/134306.jpg?1694294006",
+      "x48": "https://shikimori.one/system/mangas/x48/134306.jpg?1694294006"
+    },
+    "url": "https://shikimori.one/mangas/134306-oujisama-nante-kocchi-kara-negaisage-desu-wa-tsuihou-sareta-moto-akuyaku-reijou-mahou-no-chikara-de-mikaeshimasu",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2020-12-04",
+    "released_on": null
+  },
+  {
+    "id": 141504,
+    "name": "Kiraware Yuusha wo Enjita Ore wa, Nazeka Last Boss ni Sukarete Issho ni Seikatsu shitemasu!",
+    "russian": "Я играл роль ненавистного героя, но по какой-то причине меня любит последний босс и я живу с ней!",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/141504.jpg?1693860532",
+      "preview": "https://shikimori.one/system/mangas/preview/141504.jpg?1693860532",
+      "x96": "https://shikimori.one/system/mangas/x96/141504.jpg?1693860532",
+      "x48": "https://shikimori.one/system/mangas/x48/141504.jpg?1693860532"
+    },
+    "url": "https://shikimori.one/mangas/141504-kiraware-yuusha-wo-enjita-ore-wa-nazeka-last-boss-ni-sukarete-issho-ni-seikatsu-shitemasu",
+    "kind": "manga",
+    "score": "5.84",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2021-03-26",
+    "released_on": null
+  },
+  {
+    "id": 14770,
+    "name": "Are You Alice?",
+    "russian": "А ты Алиса?",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/14770.jpg?1691640824",
+      "preview": "https://shikimori.one/system/mangas/preview/14770.jpg?1691640824",
+      "x96": "https://shikimori.one/system/mangas/x96/14770.jpg?1691640824",
+      "x48": "https://shikimori.one/system/mangas/x48/14770.jpg?1691640824"
+    },
+    "url": "https://shikimori.one/mangas/14770-are-you-alice",
+    "kind": "manga",
+    "score": "7.44",
+    "status": "released",
+    "volumes": 12,
+    "chapters": 74,
+    "aired_on": "2009-05-28",
+    "released_on": "2015-06-27"
+  },
+  {
+    "id": 84981,
+    "name": "Chiguhagu Lovers",
+    "russian": "Противоречивые влюблённые",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/84981.jpg?1691647118",
+      "preview": "https://shikimori.one/system/mangas/preview/84981.jpg?1691647118",
+      "x96": "https://shikimori.one/system/mangas/x96/84981.jpg?1691647118",
+      "x48": "https://shikimori.one/system/mangas/x48/84981.jpg?1691647118"
+    },
+    "url": "https://shikimori.one/mangas/84981-chiguhagu-lovers",
+    "kind": "manga",
+    "score": "6.33",
+    "status": "released",
+    "volumes": 2,
+    "chapters": 19,
+    "aired_on": "2011-04-14",
+    "released_on": "2012-06-21"
+  },
+  {
+    "id": 164947,
+    "name": "Mahoutsukai Rose no Sado Life",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/164947.jpg?1701627399",
+      "preview": "https://shikimori.one/system/mangas/preview/164947.jpg?1701627399",
+      "x96": "https://shikimori.one/system/mangas/x96/164947.jpg?1701627399",
+      "x48": "https://shikimori.one/system/mangas/x48/164947.jpg?1701627399"
+    },
+    "url": "https://shikimori.one/mangas/164947-mahoutsukai-rose-no-sado-life",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2022-08-24",
+    "released_on": null
+  },
+  {
+    "id": 135315,
+    "name": "Isekai Ittemo Shounen Manga no Shujinkou wa 1mm mo Burenai!!!",
+    "russian": "Даже отправившись в другой мир, герой сёнэн манги не дрогнет ни на миллиметр!",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/135315.jpg?1694553727",
+      "preview": "https://shikimori.one/system/mangas/preview/135315.jpg?1694553727",
+      "x96": "https://shikimori.one/system/mangas/x96/135315.jpg?1694553727",
+      "x48": "https://shikimori.one/system/mangas/x48/135315.jpg?1694553727"
+    },
+    "url": "https://shikimori.one/mangas/135315-isekai-ittemo-shounen-manga-no-shujinkou-wa-1mm-mo-burenai",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2021-04-02",
+    "released_on": null
+  },
+  {
+    "id": 1708,
+    "name": "Diamond Head",
+    "russian": "Блестящий ум",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/1708.jpg?1691651515",
+      "preview": "https://shikimori.one/system/mangas/preview/1708.jpg?1691651515",
+      "x96": "https://shikimori.one/system/mangas/x96/1708.jpg?1691651515",
+      "x48": "https://shikimori.one/system/mangas/x48/1708.jpg?1691651515"
+    },
+    "url": "https://shikimori.one/mangas/1708-diamond-head",
+    "kind": "manga",
+    "score": "7.25",
+    "status": "released",
+    "volumes": 5,
+    "chapters": 16,
+    "aired_on": "2001-01-01",
+    "released_on": null
+  },
+  {
+    "id": 153650,
+    "name": "Revelation of Youth",
+    "russian": "Откровения юности",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/153650.jpg?1700452138",
+      "preview": "https://shikimori.one/system/mangas/preview/153650.jpg?1700452138",
+      "x96": "https://shikimori.one/system/mangas/x96/153650.jpg?1700452138",
+      "x48": "https://shikimori.one/system/mangas/x48/153650.jpg?1700452138"
+    },
+    "url": "https://shikimori.one/mangas/153650-revelation-of-youth",
+    "kind": "manhwa",
+    "score": "7.66",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2022-11-05",
+    "released_on": null
+  },
+  {
+    "id": 125327,
+    "name": "Hebi no Yama",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/125327.jpg?1691663343",
+      "preview": "https://shikimori.one/system/mangas/preview/125327.jpg?1691663343",
+      "x96": "https://shikimori.one/system/mangas/x96/125327.jpg?1691663343",
+      "x48": "https://shikimori.one/system/mangas/x48/125327.jpg?1691663343"
+    },
+    "url": "https://shikimori.one/mangas/125327-hebi-no-yama",
+    "kind": "one_shot",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 0,
+    "chapters": 1,
+    "aired_on": "2018-04-25",
+    "released_on": null
+  },
+  {
+    "id": 132977,
+    "name": "Kamishiro Sousa",
+    "russian": "",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/132977.jpg?1696627273",
+      "preview": "https://shikimori.one/system/mangas/preview/132977.jpg?1696627273",
+      "x96": "https://shikimori.one/system/mangas/x96/132977.jpg?1696627273",
+      "x48": "https://shikimori.one/system/mangas/x48/132977.jpg?1696627273"
+    },
+    "url": "https://shikimori.one/mangas/132977-kamishiro-sousa",
+    "kind": "one_shot",
+    "score": "6.55",
+    "status": "released",
+    "volumes": 0,
+    "chapters": 1,
+    "aired_on": "2014-05-07",
+    "released_on": null
+  },
+  {
+    "id": 18295,
+    "name": "Samehada-Otoko to Momojiri-Onna",
+    "russian": "Мужчина с кожей акулы и девушка с персиковым бедром",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/18295.jpg?1694983807",
+      "preview": "https://shikimori.one/system/mangas/preview/18295.jpg?1694983807",
+      "x96": "https://shikimori.one/system/mangas/x96/18295.jpg?1694983807",
+      "x48": "https://shikimori.one/system/mangas/x48/18295.jpg?1694983807"
+    },
+    "url": "https://shikimori.one/mangas/18295-samehada-otoko-to-momojiri-onna",
+    "kind": "manga",
+    "score": "6.27",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 2,
+    "aired_on": "1993-01-01",
+    "released_on": null
+  },
+  {
+    "id": 148733,
+    "name": "My Boss's Special Request",
+    "russian": "Особые поручения президента",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/148733.jpg?1694399357",
+      "preview": "https://shikimori.one/system/mangas/preview/148733.jpg?1694399357",
+      "x96": "https://shikimori.one/system/mangas/x96/148733.jpg?1694399357",
+      "x48": "https://shikimori.one/system/mangas/x48/148733.jpg?1694399357"
+    },
+    "url": "https://shikimori.one/mangas/148733-my-boss-s-special-request",
+    "kind": "manhwa",
+    "score": "7.24",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2021-10-31",
+    "released_on": null
+  },
+  {
+    "id": 109971,
+    "name": "Love \u0026 Hate",
+    "russian": "Любовь и ненависть",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/109971.jpg?1696366489",
+      "preview": "https://shikimori.one/system/mangas/preview/109971.jpg?1696366489",
+      "x96": "https://shikimori.one/system/mangas/x96/109971.jpg?1696366489",
+      "x48": "https://shikimori.one/system/mangas/x48/109971.jpg?1696366489"
+    },
+    "url": "https://shikimori.one/mangas/109971-love-hate",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 2,
+    "chapters": 13,
+    "aired_on": "2015-12-28",
+    "released_on": "2016-12-28"
+  },
+  {
+    "id": 119084,
+    "name": "Nihon e Youkoso Elf-san.",
+    "russian": "Добро пожаловать в Японию, Госпожа Эльф!",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/119084.jpg?1696454069",
+      "preview": "https://shikimori.one/system/mangas/preview/119084.jpg?1696454069",
+      "x96": "https://shikimori.one/system/mangas/x96/119084.jpg?1696454069",
+      "x48": "https://shikimori.one/system/mangas/x48/119084.jpg?1696454069"
+    },
+    "url": "https://shikimori.one/mangas/119084-nihon-e-youkoso-elf-san",
+    "kind": "manga",
+    "score": "7.32",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2018-12-21",
+    "released_on": null
+  },
+  {
+    "id": 96402,
+    "name": "Nina-san no Mahou Seikatsu",
+    "russian": "Волшебная жизнь Нины-сан",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/96402.jpg?1696106960",
+      "preview": "https://shikimori.one/system/mangas/preview/96402.jpg?1696106960",
+      "x96": "https://shikimori.one/system/mangas/x96/96402.jpg?1696106960",
+      "x48": "https://shikimori.one/system/mangas/x48/96402.jpg?1696106960"
+    },
+    "url": "https://shikimori.one/mangas/96402-nina-san-no-mahou-seikatsu",
+    "kind": "manga",
+    "score": "7.04",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2016-01-27",
+    "released_on": null
+  },
+  {
+    "id": 114259,
+    "name": "Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.",
+    "russian": "Я делаю всё возможное, чтобы чувствовать себя как дома в другом мире",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/114259.jpg?1695071374",
+      "preview": "https://shikimori.one/system/mangas/preview/114259.jpg?1695071374",
+      "x96": "https://shikimori.one/system/mangas/x96/114259.jpg?1695071374",
+      "x48": "https://shikimori.one/system/mangas/x48/114259.jpg?1695071374"
+    },
+    "url": "https://shikimori.one/mangas/114259-isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu",
+    "kind": "manga",
+    "score": "6.71",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2017-11-03",
+    "released_on": null
+  },
+  {
+    "id": 125037,
+    "name": "Timing",
+    "russian": "Контролирующие время",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/125037.jpg?1694726147",
+      "preview": "https://shikimori.one/system/mangas/preview/125037.jpg?1694726147",
+      "x96": "https://shikimori.one/system/mangas/x96/125037.jpg?1694726147",
+      "x48": "https://shikimori.one/system/mangas/x48/125037.jpg?1694726147"
+    },
+    "url": "https://shikimori.one/mangas/125037-timing",
+    "kind": "manhwa",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 30,
+    "aired_on": "2005-06-20",
+    "released_on": "2005-10-28"
+  },
+  {
+    "id": 89724,
+    "name": "Mahou Shoujo nante Mou Ii desukara.",
+    "russian": "Мне надоело быть девочкой-волшебницей",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/89724.jpg?1693775031",
+      "preview": "https://shikimori.one/system/mangas/preview/89724.jpg?1693775031",
+      "x96": "https://shikimori.one/system/mangas/x96/89724.jpg?1693775031",
+      "x48": "https://shikimori.one/system/mangas/x48/89724.jpg?1693775031"
+    },
+    "url": "https://shikimori.one/mangas/89724-mahou-shoujo-nante-mou-ii-desukara",
+    "kind": "manga",
+    "score": "6.67",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 45,
+    "aired_on": "2015-03-31",
+    "released_on": "2018-06-27"
+  },
+  {
+    "id": 84609,
+    "name": "Zero kara Hajimeru Mahou no Sho",
+    "russian": "Книга магии для начинающих с нуля",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/84609.jpg?1695848279",
+      "preview": "https://shikimori.one/system/mangas/preview/84609.jpg?1695848279",
+      "x96": "https://shikimori.one/system/mangas/x96/84609.jpg?1695848279",
+      "x48": "https://shikimori.one/system/mangas/x48/84609.jpg?1695848279"
+    },
+    "url": "https://shikimori.one/mangas/84609-zero-kara-hajimeru-mahou-no-sho",
+    "kind": "manga",
+    "score": "7.16",
+    "status": "released",
+    "volumes": 6,
+    "chapters": 28,
+    "aired_on": "2014-12-27",
+    "released_on": "2017-06-27"
+  },
+  {
+    "id": 12987,
+    "name": "Osorubeki Kodomotachi",
+    "russian": "Ужасные дети",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/12987.jpg?1694637303",
+      "preview": "https://shikimori.one/system/mangas/preview/12987.jpg?1694637303",
+      "x96": "https://shikimori.one/system/mangas/x96/12987.jpg?1694637303",
+      "x48": "https://shikimori.one/system/mangas/x48/12987.jpg?1694637303"
+    },
+    "url": "https://shikimori.one/mangas/12987-osorubeki-kodomotachi",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 0,
+    "aired_on": "1979-05-01",
+    "released_on": "1979-08-01"
+  },
+  {
+    "id": 105084,
+    "name": "Jibaku Shounen Hanako-kun",
+    "russian": "Туалетный мальчик Ханако",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/105084.jpg?1695157811",
+      "preview": "https://shikimori.one/system/mangas/preview/105084.jpg?1695157811",
+      "x96": "https://shikimori.one/system/mangas/x96/105084.jpg?1695157811",
+      "x48": "https://shikimori.one/system/mangas/x48/105084.jpg?1695157811"
+    },
+    "url": "https://shikimori.one/mangas/105084-jibaku-shounen-hanako-kun",
+    "kind": "manga",
+    "score": "8.58",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2014-12-18",
+    "released_on": null
+  },
+  {
+    "id": 32937,
+    "name": "7-jikanme no Note",
+    "russian": "Итоги седьмого класса",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/32937.jpg?1691634349",
+      "preview": "https://shikimori.one/system/mangas/preview/32937.jpg?1691634349",
+      "x96": "https://shikimori.one/system/mangas/x96/32937.jpg?1691634349",
+      "x48": "https://shikimori.one/system/mangas/x48/32937.jpg?1691634349"
+    },
+    "url": "https://shikimori.one/mangas/32937-7-jikanme-no-note",
+    "kind": "manga",
+    "score": "7.19",
+    "status": "released",
+    "volumes": 4,
+    "chapters": 28,
+    "aired_on": "2010-11-24",
+    "released_on": "2013-06-24"
+  },
+  {
+    "id": 99050,
+    "name": "Aru Hi Inu no Kuni kara Tegami ga Kite",
+    "russian": "Однажды мне пришло письмо из Страны собак",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/99050.jpg?1691641215",
+      "preview": "https://shikimori.one/system/mangas/preview/99050.jpg?1691641215",
+      "x96": "https://shikimori.one/system/mangas/x96/99050.jpg?1691641215",
+      "x48": "https://shikimori.one/system/mangas/x48/99050.jpg?1691641215"
+    },
+    "url": "https://shikimori.one/mangas/99050-aru-hi-inu-no-kuni-kara-tegami-ga-kite",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2012-01-20",
+    "released_on": null
+  },
+  {
+    "id": 30175,
+    "name": "Pretty Haru",
+    "russian": "Цветение Хару",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/30175.jpg?1694292544",
+      "preview": "https://shikimori.one/system/mangas/preview/30175.jpg?1694292544",
+      "x96": "https://shikimori.one/system/mangas/x96/30175.jpg?1694292544",
+      "x48": "https://shikimori.one/system/mangas/x48/30175.jpg?1694292544"
+    },
+    "url": "https://shikimori.one/mangas/30175-pretty-haru",
+    "kind": "manhwa",
+    "score": "6.41",
+    "status": "released",
+    "volumes": 3,
+    "chapters": 12,
+    "aired_on": "2010-09-01",
+    "released_on": "2011-09-01"
+  },
+  {
+    "id": 25,
+    "name": "Fullmetal Alchemist",
+    "russian": "Стальной алхимик",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/25.jpg?1682899914",
+      "preview": "https://shikimori.one/system/mangas/preview/25.jpg?1682899914",
+      "x96": "https://shikimori.one/system/mangas/x96/25.jpg?1682899914",
+      "x48": "https://shikimori.one/system/mangas/x48/25.jpg?1682899914"
+    },
+    "url": "https://shikimori.one/mangas/z25-fullmetal-alchemist",
+    "kind": "manga",
+    "score": "9.03",
+    "status": "released",
+    "volumes": 27,
+    "chapters": 116,
+    "aired_on": "2001-07-12",
+    "released_on": "2010-09-11"
+  },
+  {
+    "id": 23348,
+    "name": "Arcana - Ouji \u0026 Hime",
+    "russian": "Аркана: Принц и принцесса",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/23348.jpg?1691640781",
+      "preview": "https://shikimori.one/system/mangas/preview/23348.jpg?1691640781",
+      "x96": "https://shikimori.one/system/mangas/x96/23348.jpg?1691640781",
+      "x48": "https://shikimori.one/system/mangas/x48/23348.jpg?1691640781"
+    },
+    "url": "https://shikimori.one/mangas/23348-arcana-ouji-hime",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 1,
+    "chapters": 13,
+    "aired_on": "2007-04-25",
+    "released_on": null
+  },
+  {
+    "id": 154376,
+    "name": "Yowayowa Sensei",
+    "russian": "Учитель Ёваёва",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/154376.jpg?1700451163",
+      "preview": "https://shikimori.one/system/mangas/preview/154376.jpg?1700451163",
+      "x96": "https://shikimori.one/system/mangas/x96/154376.jpg?1700451163",
+      "x48": "https://shikimori.one/system/mangas/x48/154376.jpg?1700451163"
+    },
+    "url": "https://shikimori.one/mangas/154376-yowayowa-sensei",
+    "kind": "manga",
+    "score": "6.62",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2022-11-16",
+    "released_on": null
+  },
+  {
+    "id": 128231,
+    "name": "Weak Hero",
+    "russian": "Слабейший герой",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/128231.jpg?1694898406",
+      "preview": "https://shikimori.one/system/mangas/preview/128231.jpg?1694898406",
+      "x96": "https://shikimori.one/system/mangas/x96/128231.jpg?1694898406",
+      "x48": "https://shikimori.one/system/mangas/x48/128231.jpg?1694898406"
+    },
+    "url": "https://shikimori.one/mangas/128231-weak-hero",
+    "kind": "manhwa",
+    "score": "7.96",
+    "status": "released",
+    "volumes": 0,
+    "chapters": 267,
+    "aired_on": "2018-05-05",
+    "released_on": "2023-10-14"
+  },
+  {
+    "id": 160936,
+    "name": "Big Man on the Court",
+    "russian": "Большой человек на площадке",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/160936.jpg?1701046120",
+      "preview": "https://shikimori.one/system/mangas/preview/160936.jpg?1701046120",
+      "x96": "https://shikimori.one/system/mangas/x96/160936.jpg?1701046120",
+      "x48": "https://shikimori.one/system/mangas/x48/160936.jpg?1701046120"
+    },
+    "url": "https://shikimori.one/mangas/160936-big-man-on-the-court",
+    "kind": "manhwa",
+    "score": "0.0",
+    "status": "ongoing",
+    "volumes": 0,
+    "chapters": 0,
+    "aired_on": "2020-09-21",
+    "released_on": null
+  },
+  {
+    "id": 9032,
+    "name": "Tozasareta Nergal",
+    "russian": "Заключённый Нергал",
+    "image": {
+      "original": "https://shikimori.one/system/mangas/original/9032.jpg?1693516734",
+      "preview": "https://shikimori.one/system/mangas/preview/9032.jpg?1693516734",
+      "x96": "https://shikimori.one/system/mangas/x96/9032.jpg?1693516734",
+      "x48": "https://shikimori.one/system/mangas/x48/9032.jpg?1693516734"
+    },
+    "url": "https://shikimori.one/mangas/9032-tozasareta-nergal",
+    "kind": "manga",
+    "score": "0.0",
+    "status": "released",
+    "volumes": 7,
+    "chapters": 0,
+    "aired_on": "2007-01-12",
+    "released_on": "2010-09-11"
+  }
+]
