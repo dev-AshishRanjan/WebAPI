@@ -1,0 +1,110 @@
+.homepage{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  .hero{
+    height: 70vh;
+    width: 100%;
+    // background: red;
+    display: flex;
+    flex-direction: row;
+    .lefthalf{
+      height: 100%;
+      width: 50%;
+      padding-left: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.2rem;
+      color: var(--text-1);
+      h1{
+        font-size: 1.7rem;
+      }
+      @for $i from 1 to 3 {
+        h2:nth-child(#{$i}) {
+          transform: translateX(#{$i}rem);
+        }
+      }
+    }
+    .righthalf{
+      height: 100%;
+      width: 50%;
+      padding-right: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 0.2rem;
+      color: var(--text-1);
+      h1{
+        font-size: 1.7rem;
+      }
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 10rem;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+        @for $i from 1 to 7 {
+          h2:nth-child(#{$i}) {
+            transform: translateX(#{$i}rem);
+          }
+        }
+      }
+    }
+  }
+  .cards{
+    height: 30vh;
+    width: 100%;
+    padding: 0.2rem 1rem;
+    // background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.tag{
+  font-size: 1.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--text-1);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  &:hover{
+    background: var(--text-1);
+    color: var(--text-3);
+  }
+}
+
+@media (max-width: 769px) {
+  .homepage {
+    overflow-y: auto;
+    .hero{
+      // .lefthalf{
+      //   width: 100%;
+      //   justify-content: center;
+      //   align-items: center;
+      // }
+      .righthalf{
+        display: none;
+      }
+    }
+    .cards{
+      min-height: 30vh;
+      width: 100%;
+    }
+  }
+}
+@media (min-width:769px ) and (max-width: 1350px) {
+  .homepage {
+    overflow-y: auto;
+  }
+}

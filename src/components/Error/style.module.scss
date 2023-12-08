@@ -1,0 +1,83 @@
+@use "../../styles/mixins.scss";
+.error {
+  height: 100vh;
+  width: 100vw;
+  @include mixins.flexCenter;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  // background: radial-gradient(
+  //   circle at center,
+  //   var(--heroSection-bg2),
+  //   var(--heroSection-bg1) 40%
+  // );
+  overflow: hidden !important;
+  color: var(--white);
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.homepage{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  .hero{
+    height: 70vh;
+    width: 100%;
+    // background: red;
+    display: flex;
+    flex-direction: row;
+    .lefthalf{
+      height: 100%;
+      width: 50%;
+      padding-left: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.2rem;
+      color: var(--text-1);
+      h1{
+        font-size: 1.7rem;
+      }
+      @for $i from 1 to 3 {
+        h2:nth-child(#{$i}) {
+          transform: translateX(#{$i}rem);
+        }
+      }
+    }
+    .righthalf{
+      height: 100%;
+      width: 50%;
+      padding-right: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 0.2rem;
+      color: var(--text-1);
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .homepage {
+    .hero{
+      .lefthalf{
+        display: none;
+      }
+      .righthalf{
+        width: 100%;
+        padding-right: unset;
+      }
+    }
+  }
+}

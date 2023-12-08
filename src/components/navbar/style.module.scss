@@ -1,0 +1,59 @@
+@use "../../styles/mixins.scss";
+
+.navWrapper {
+  @include mixins.flexCenter;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // height: 10rem;
+  background: transparent;
+  padding: 1rem 1.5rem;
+  justify-content: flex-end !important;
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: radial-gradient(
+      circle at bottom right,
+      var(--btn-bg-1),
+      var(--btn-bg-2)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+    letter-spacing: -0.15rem;
+  }
+
+  .nav_links {
+    @include mixins.flexCenter;
+    a {
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      background: var(--bg-1);
+      color: var(--text-1);
+      text-decoration: none;
+      margin: 0 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease-in;
+      &:active {
+        color: var(--text-2);
+      }
+      &:hover {
+        background: var(--text-1);
+        color:var(--text-3);
+      }
+    }
+  }
+}
+
+@media (max-width:789px){
+  .navWrapper {
+    justify-content: center !important;
+  }
+}
