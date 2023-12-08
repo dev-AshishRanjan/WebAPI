@@ -1,0 +1,119 @@
+@use "./mixins.scss";
+.restbody{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  .herosection{
+    width: 100%;
+    height: 100vh;
+    .data{
+      width: 70%;
+      height: 100%;
+      @include mixins.flexCenter;
+      flex-direction: column;
+      h1{
+        font-size: 3rem;
+        color: var(--text-1);
+        font-family: 'Ubuntu',serif;
+      }
+      p{
+        font-size: 1.4rem;
+        color: var(--text-2);
+      }
+    }
+  }
+  .routesection{
+    width: 100%;
+    min-height: 70vh;
+    padding-top: 5rem;
+    .data{
+      width: 70%;
+      height: 100%;
+      @include mixins.flexCenter;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 0.5rem;
+      h1{
+        font-size: 3rem;
+        color: var(--text-1);
+        font-family: 'Ubuntu',serif;
+      }
+      p{
+        font-size: 1.4rem;
+        color: var(--text-2);
+      }
+      h2{
+        margin: 1.5rem 0;
+      }
+    }
+  }
+  .advsection{
+    width: 100%;
+    min-height: 100vh;
+    .data{
+      width: 70%;
+      height: 100%;
+      @include mixins.flexCenter;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 0.5rem;
+    h1{
+      font-size: 3rem;
+      color: var(--text-1);
+      font-family: 'Ubuntu',serif;
+      margin: 1rem 0;
+    }
+    p{
+      font-size: 1.4rem;
+      color: var(--text-2);
+    }
+    span{
+      font-style: italic;
+    }
+  }
+  }
+}
+
+@media (max-width: 769px) {
+  .restbody{
+    .herosection{
+      .data{
+        width: 100%;
+        @include mixins.flexCenter;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 1.5rem;
+        h1{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .routesection{
+      .data{
+        width: 100%;
+        h1{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .advsection{
+      .data{
+        width: 100%;
+        h1{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
