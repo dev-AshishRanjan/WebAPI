@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { FaArrowTurnUp } from "react-icons/fa6";
 
 interface cards{
-  name?:String,
-  details?:String,
-  cardtype?:String,
-  route?:String
+  name?:string,
+  details?:string,
+  cardtype?:string,
+  route?:string
 }
 
 const Card = ({name,details,cardtype,route}:cards) => {
