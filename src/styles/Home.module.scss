@@ -32,7 +32,7 @@
     .righthalf{
       height: 100%;
       width: 50%;
-      padding-right: 2.5rem;
+      padding-right: 1.5rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -47,14 +47,14 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        width: 10rem;
+        width: 15rem;
         flex-wrap: wrap;
         gap: 0.3rem;
-        @for $i from 1 to 7 {
-          h2:nth-child(#{$i}) {
-            transform: translateX(#{$i}rem);
-          }
-        }
+        // @for $i from 1 to 7 {
+        //   h2:nth-child(#{$i}) {
+        //     transform: translateX(#{$i}rem);
+        //   }
+        // }
       }
     }
   }

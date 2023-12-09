@@ -14,7 +14,8 @@
   --card-bg-0:#c4c7de45;
   --card-bg-1:#edeaec;
   --card-bg-2:#c4c7de;
-  --route-bg:#ccd4de;
+  --route-bg:#c4c7de;
+  --cloud-bg:#ccd4de;
 }
 
 // #a09aab, #432f3f, #edeaec, #4d526a, #875c48, #d6c2bd
@@ -71,7 +72,7 @@
   min-height: 100vh;
   width: 100vw;
   padding: 1.5rem;
-  background: radial-gradient(circle at left,var(--bg-2) 30%,transparent),radial-gradient(circle at center,var(--bg-2) 30%,transparent);
+  background: radial-gradient(circle at left,var(--cloud-bg) 30%,transparent),radial-gradient(circle at center,var(--cloud-bg) 30%,transparent);
 }
 
 .schema{
