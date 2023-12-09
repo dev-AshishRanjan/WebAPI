@@ -9,7 +9,10 @@ const REST = () => {
         <div className={styles.data}>
           <h1>REST</h1>
           <p>REST (Representational State Transfer) is an architectural style for designing networked applications. It relies on a stateless communication model, where each request from a client to a server contains all the information needed to understand and fulfill that request. RESTful systems use standard HTTP methods (GET, POST, PUT, DELETE) for communication and typically operate over the web. Resources, identified by URIs, are manipulated using these methods, and the architecture emphasizes simplicity, scalability, and a uniform interface for efficient and reliable communication between distributed systems.</p>
-        {/* Base Address : <div className='schema'>https://webapi.vercel.app</div> */}
+          <h2>Base Address</h2>
+          <div className='route'>
+            <div><span className='type'>BA</span> <span className='vip'>https://web-api-azure.vercel.app</span>  <span className='detail'>Base</span></div>
+          </div>
         </div>
       </div>
 

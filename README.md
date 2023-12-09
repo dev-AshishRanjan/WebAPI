@@ -1,40 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![WebAPI](https://socialify.git.ci/dev-AshishRanjan/WebAPI/image?description=1&font=KoHo&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Auto)
 
-## Getting Started
+<div align="center">
+ <p>
+   
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=dev-AshishRanjan%2FWebAPI%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/dev-AshishRanjan/WebAPI)
+![GitHub Repo stars](https://img.shields.io/github/stars/dev-AshishRanjan/WebAPI)
+![GitHub contributors](https://img.shields.io/github/contributors/dev-AshishRanjan/WebAPI)
+![GitHub last commit](https://img.shields.io/github/last-commit/dev-AshishRanjan/WebAPI)
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/dev-AshishRanjan/WebAPI)
 
-First, run the development server:
+![Github](https://img.shields.io/github/license/dev-AshishRanjan/WebAPI)
+![GitHub issues](https://img.shields.io/github/issues/dev-AshishRanjan/WebAPI)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/dev-AshishRanjan/WebAPI)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/dev-AshishRanjan/WebAPI)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dev-AshishRanjan/WebAPI)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ </p>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img align="center" src="https://readme-typing-svg.herokuapp.com?color=%23${textVal}&lines=+👋🏻+Welcome+to+WebAPI+👋🏻;👨🏻‍💻+Lets+Build+Together+👩🏻‍💻;💡+Get+To+Know+More+About+APIs+💡;🌐+Check+our+Website+🌐;🙏🏻+Thanks+for+Contributing+🙏🏻"
+ <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
+</p>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# **_WebAPI_**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This is a github repository for the Webserver of WebAPI.
+It has 4 tpyes of Web API protocol
+- REST
+- GraphQL
+- tRPC
+- gRPC
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+<p>
+    <img src="https://img.shields.io/badge/next.js-7c3aed?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Official Website"/>
+    <img src="https://img.shields.io/badge/mongodb-7c3aed?style=for-the-badge&logo=mongodb&logoColor=white" alt="TypeScript official Website"/>
+    <img src="https://img.shields.io/badge/express-7c3aed?style=for-the-badge&logo=express&logoColor=white" alt="TypeScript official Website"/>
+    <img src="https://img.shields.io/badge/react-7c3aed?style=for-the-badge&logo=react&logoColor=white" alt="TypeScript official Website"/>
+    <img src="https://img.shields.io/badge/Node.js-7c3aed?style=for-the-badge&logo=node.js&logoColor=white" alt="TypeScript official Website"/>
+    <img src="https://img.shields.io/badge/typescript-7c3aed?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript official Website"/>
+    <img src="https://img.shields.io/badge/sass-7c3aed?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS Official Website"/>
+</p>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## TO DOs: 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [x] REST
+- [ ] GraphQL
+- [ ] tRPC
+- [ ] gRPC
