@@ -30,10 +30,10 @@ export default function App({ Component, pageProps }:any) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#5f5eaa" />
-        {/* <link rel="icon" href="/ashish.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="shortcut icon" href="/ashish_sm.png" />
-        <link rel="apple-touch-icon" href="/ashish_sm.png"></link> */}
+        <link rel="icon" href="/favicon.png" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
+        <link rel="shortcut icon" href="/favicon_sm.png" />
+        <link rel="apple-touch-icon" href="/favicon_sm.png"></link>
       </Head>
       {/* <style jsx global>{`
         * {
