@@ -4,7 +4,7 @@ import styles from "@/styles/Rest.module.scss";
 
 const Home = () => {
   // Using the generated hooks for crudRead route
-  const { data: crudReadData, error: crudReadError } = trpc.crudRead.useQuery();
+  const { data: crudReadData, error: crudReadError }:any = trpc.crudRead.useQuery();
 
   // Using the generated hooks for crudCreate route
   const createMutation = trpc.crudCreate.useMutation();
@@ -16,21 +16,21 @@ const Home = () => {
   const deleteMutation = trpc.crudDelete.useMutation();
 
   // Using the generated hooks for news route (without type)
-  const { data: newsData, error: newsError } = trpc.news.useQuery({ type: 'all' });
+  const { data: newsData, error: newsError }:any = trpc.news.useQuery({ type: 'all' });
   console.log({ newsData, newsError });
 
 
   // Using the generated hooks for news route (with type="sports")
-  const { data: sportsNewsData, error: sportsNewsError } = trpc.news.useQuery({ type: "sports" });
+  const { data: sportsNewsData, error: sportsNewsError }:any = trpc.news.useQuery({ type: "sports" });
 
   // Using the generated hooks for movie route
-  const { data: movieData, error: movieError } = trpc.movie.useQuery();
+  const { data: movieData, error: movieError }:any = trpc.movie.useQuery();
 
   // Using the generated hooks for anime route
-  const { data: animeData, error: animeError } = trpc.anime.useQuery();
+  const { data: animeData, error: animeError }:any = trpc.anime.useQuery();
 
   // Using the generated hooks for manga route
-  const { data: mangaData, error: mangaError } = trpc.manga.useQuery();
+  const { data: mangaData, error: mangaError }:any = trpc.manga.useQuery();
 
   if (
     crudReadError ||
