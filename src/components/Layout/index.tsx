@@ -3,6 +3,7 @@ import Spinner from "@/components/Spinner";
 import styles from "./style.module.scss";
 import Navbar from "../navbar";
 import Firefly from "../Firefly";
+import Provider from "@/utils/provider";
 
 const Layout = ({ children }:any) => {
   return (
@@ -13,7 +14,9 @@ const Layout = ({ children }:any) => {
         <Firefly/>
         <div className={styles.body}>
           <Navbar/>
-          {children}
+          <Provider>
+            {children}
+          </Provider>
         </div>
       </div>
     </div>

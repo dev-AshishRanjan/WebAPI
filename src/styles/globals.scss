@@ -59,6 +59,8 @@
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in;
+  cursor: pointer;
+  display:inline-block;
   &:active {
     color: var(--text-2);
   }
@@ -123,6 +125,31 @@
     }
   }
 }
+.trpcCode{
+  // min-height: 2rem;
+ @extend .route;
+ width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  whiteSpace: 'pre-wrap';
+  gap: 0.5rem;
+    .type{
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--bg-3);
+      border-radius: 1rem;
+      font-size: 1.5rem;
+      padding: 0.5rem;
+    }
+    .vip{
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      color: var(--text-1);
+      whiteSpace: 'pre-wrap';
+    }
+}
 .centered{
   justify-content: center !important;
 }
@@ -155,5 +182,8 @@
         display: none;
       }
     }
+  }
+  .trpcCode{
+    width: 20rem;
   }
 }
