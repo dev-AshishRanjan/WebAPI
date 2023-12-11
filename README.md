@@ -51,6 +51,23 @@ It has 4 tpyes of Web API protocol
     <img src="https://img.shields.io/badge/sass-7c3aed?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS Official Website"/>
 </p>
 
+## Theme
+
+List of Themes :
+
+1. Auto : Automatically changes theme based on time
+2. Morning : light pink and blue
+3. Day : white, gray
+4. Evening : yellow, orange
+5. Night : purple, black
+
+Automatic Theme Schedule :
+
+- time >= 8 && time <= 12 : morning
+- time > 12 && time <= 16 : day
+- time > 16 && time <= 20 : evening
+- time > 20 && time < 8 : night
+
 ## TO DOs:
 
 - [x] REST

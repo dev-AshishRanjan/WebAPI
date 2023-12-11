@@ -6,21 +6,41 @@ import Firefly from "../Firefly";
 import Provider from "@/utils/provider";
 // import {Elina} from "../3D";
 
-const Layout = ({ children }:any) => {
+const Layout = ({ children }: any) => {
+  const [theme, setTheme] = useState("auto");
+  const [actualTheme, setactualTheme] = useState("");
+  useEffect(() => {
+    if (theme === "auto") {
+      const time = new Date().getHours();
+      // console.log({ time });
+      if (time >= 8 && time <= 12) {
+        setactualTheme("morning");
+      }
+      else if (time > 12 && time <= 16) {
+        setactualTheme("day");
+      }
+      else if (time > 16 && time <= 20) {
+        setactualTheme("evening");
+      }
+      else {
+        setactualTheme("night");
+      }
+    }
+  })
   return (
     <>
-    <div className={styles.background}>
-      <div className={styles.backgroundOverlay}>
-        <img src="/images/hero_pic3.png" alt="" />
-        <Firefly/>
-        <div className={styles.body}>
-          <Navbar/>
-          <Provider>
-            {children}
-          </Provider>
+      <div className={`${theme !== "auto" ? theme : actualTheme} ${styles.background}`}>
+        <div className={styles.backgroundOverlay}>
+          <img src="/images/hero_pic3.png" alt="" />
+          <Firefly />
+          <div className={styles.body}>
+            <Navbar theme={theme} setTheme={setTheme} />
+            <Provider>
+              {children}
+            </Provider>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

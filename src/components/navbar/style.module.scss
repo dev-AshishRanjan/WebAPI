@@ -41,6 +41,7 @@
       justify-content: center;
       align-items: center;
       transition: all 0.2s ease-in;
+      // box-shadow: 2px 2px 5px var(--bg-3);
       &:active {
         color: var(--text-2);
       }
@@ -55,5 +56,12 @@
 @media (max-width:789px){
   .navWrapper {
     justify-content: center !important;
+    backdrop-filter: blur(0.2rem);
+    .nav_links {
+      justify-content: space-between;
+      a {
+        margin: 0 0.8rem;
+      }
+    }
   }
 }
