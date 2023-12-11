@@ -46,21 +46,26 @@
 .card2{
   @extend .card1;
   transform: translateY(1rem);
-  animation-delay: 1s;
+  .cardInner,.cardArrow{
+  animation-delay: -1s;
+  }
 }
 .card3{
   @extend .card1;
-  animation-delay: 2s;
   .cardInner{
     background: var(--card-bg-2);
+    animation-delay: -2s;
   }
   .cardArrow{
+    animation-delay: -2s;
     background: var(--card-bg-2);
   }
 }
 .card4{
   @extend .card3;
-  animation-delay: 4s;
+  .cardInner,.cardArrow{
+  animation-delay: -3s;
+  }
   transform: translateY(-2rem);
 }
 

@@ -101,6 +101,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Abel','Montserrat',serif;
+  transition: all 0.2s ease-in;
   &::selection{
     background: var(--bg-3);
     border-radius: 0.3rem;
@@ -221,13 +222,14 @@ select{
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  whiteSpace: 'pre-wrap';
+  // whiteSpace: 'pre-wrap';
   gap: 0.5rem;
     .type{
       display: block;
       width: 100%;
       text-align: center;
       background: var(--bg-3);
+      color: var(--text-2);
       border-radius: 1rem;
       font-size: 1.5rem;
       padding: 0.5rem;
@@ -236,8 +238,25 @@ select{
       margin-top: 1rem;
       font-size: 1.3rem;
       color: var(--text-1);
-      whiteSpace: 'pre-wrap';
+      // whiteSpace: 'pre-wrap';
     }
+}
+
+.sc-gsTDqH,.jVPwaI,.jVPwaI>span, .linenumber,.cPqTwa{
+  background: unset !important;
+  color: var(--text-2) !important;
+  outline: none;
+}
+.token{
+  color: var(--text-1) !important;
+}
+.cPqTwa{
+  border: 1px solid var(--text-1);
+  svg{
+    fill: var(--text-1);
+    // background: var(--text-2);
+    // color: var(--text-1);
+  }
 }
 .centered{
   justify-content: center !important;
