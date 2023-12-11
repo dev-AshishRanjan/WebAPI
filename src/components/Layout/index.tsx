@@ -29,7 +29,7 @@ const Layout = ({ children }: any) => {
   })
   return (
     <>
-      <div className={`${theme !== "auto" ? theme : actualTheme} ${styles.background}`}>
+      <div className={`${theme !== "auto"&&theme!==undefined&&theme!==null ? theme : actualTheme} ${styles.background}`}>
         <div className={styles.backgroundOverlay}>
           <img src="/images/hero_pic3.png" alt="" />
           <Firefly />
