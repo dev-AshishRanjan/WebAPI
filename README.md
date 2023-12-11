@@ -33,6 +33,7 @@
 
 This is a github repository for the Webserver of WebAPI.
 It has 4 tpyes of Web API protocol
+
 - REST
 - GraphQL
 - tRPC
@@ -50,10 +51,9 @@ It has 4 tpyes of Web API protocol
     <img src="https://img.shields.io/badge/sass-7c3aed?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS Official Website"/>
 </p>
 
-
-## TO DOs: 
+## TO DOs:
 
 - [x] REST
 - [ ] GraphQL
-- [ ] tRPC
+- [x] tRPC
 - [ ] gRPC

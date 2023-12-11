@@ -16,8 +16,9 @@ const Navbar = () => {
             OME
           </Link>
           <Link
-            href="/github"
+            href="/https://github.com/dev-AshishRanjan/WebAPI"
             className={``}
+            target="_blank"
           ><VscGithub />
             ITHUB
           </Link>
