@@ -242,7 +242,8 @@ select{
     }
 }
 
-.sc-gsTDqH,.sc-gsTDqH>span, .linenumber,.cPqTwa{
+// copyblock
+.sc-gsTDqH,.sc-gsTDqH>span, .linenumber,.sc-gsTDqH>button,.trpcCode>div,.trpcCode>div>span,.trpcCode>div>button{
   background: unset !important;
   color: var(--text-2) !important;
   outline: none;
@@ -250,12 +251,14 @@ select{
 .token{
   color: var(--text-1) !important;
 }
-.cPqTwa{
+.sc-gsTDqH>button,.trpcCode>div>button{
   border: 1px solid var(--text-1);
   svg{
     fill: var(--text-1);
   }
 }
+
+
 .centered{
   justify-content: center !important;
 }
