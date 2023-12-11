@@ -242,7 +242,7 @@ select{
     }
 }
 
-.sc-gsTDqH,.jVPwaI,.jVPwaI>span, .linenumber,.cPqTwa{
+.sc-gsTDqH,.sc-gsTDqH>span, .linenumber,.cPqTwa{
   background: unset !important;
   color: var(--text-2) !important;
   outline: none;
@@ -254,8 +254,6 @@ select{
   border: 1px solid var(--text-1);
   svg{
     fill: var(--text-1);
-    // background: var(--text-2);
-    // color: var(--text-1);
   }
 }
 .centered{
