@@ -4,6 +4,7 @@ import styles from "./style.module.scss";
 import Navbar from "../navbar";
 import Firefly from "../Firefly";
 import Provider from "@/utils/provider";
+// import {Elina} from "../3D";
 
 const Layout = ({ children }:any) => {
   return (

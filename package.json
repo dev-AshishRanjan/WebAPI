@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.91.0",
+    "@react-three/fiber": "^8.15.12",
     "@trpc/client": "^10.44.1",
     "@trpc/next": "^10.44.1",
     "@trpc/server": "^10.44.1",
+    "@types/three": "^0.159.0",
     "mongoose": "^8.0.2",
     "next": "14.0.3",
     "react": "^18",
@@ -19,6 +22,7 @@
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "sass": "^1.69.5",
+    "three": "^0.159.0",
     "trpc": "^0.11.3",
     "zod": "^3.22.4"
   },
