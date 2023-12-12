@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "commit to WebApi"
+echo "pre-commit : started"
+npm run format
+echo "pre-commit : completed"
