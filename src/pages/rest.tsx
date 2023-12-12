@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "@/styles/Rest.module.scss";
 import { FaPlay } from "react-icons/fa";
 import FetchBox from "@/components/FetchBox";
-import axios from "axios";
 
 interface fetch {
   method: string;
