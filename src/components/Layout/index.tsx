@@ -13,11 +13,11 @@ const Layout = ({ children }: any) => {
     if (theme === "auto") {
       const time = new Date().getHours();
       // console.log({ time });
-      if (time >= 6 && time <= 10) {
+      if (time >= 5 && time <= 9) {
         setactualTheme("morning");
-      } else if (time > 10 && time <= 16) {
+      } else if (time > 9 && time <= 15) {
         setactualTheme("day");
-      } else if (time > 16 && time <= 20) {
+      } else if (time > 15 && time <= 19) {
         setactualTheme("evening");
       } else {
         setactualTheme("night");

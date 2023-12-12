@@ -81,6 +81,7 @@
 @media (max-width: 769px) {
   .restbody {
     .herosection {
+      padding-top: 3.5rem;
       .data {
         width: 100%;
         @include mixins.flexCenter;
