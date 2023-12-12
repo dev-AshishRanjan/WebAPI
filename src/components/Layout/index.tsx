@@ -15,29 +15,30 @@ const Layout = ({ children }: any) => {
       // console.log({ time });
       if (time >= 8 && time <= 12) {
         setactualTheme("morning");
-      }
-      else if (time > 12 && time <= 16) {
+      } else if (time > 12 && time <= 16) {
         setactualTheme("day");
-      }
-      else if (time > 16 && time <= 20) {
+      } else if (time > 16 && time <= 20) {
         setactualTheme("evening");
-      }
-      else {
+      } else {
         setactualTheme("night");
       }
     }
-  })
+  });
   return (
     <>
-      <div className={`${theme !== "auto"&&theme!==undefined&&theme!==null ? theme : actualTheme} ${styles.background}`}>
+      <div
+        className={`${
+          theme !== "auto" && theme !== undefined && theme !== null
+            ? theme
+            : actualTheme
+        } ${styles.background}`}
+      >
         <div className={styles.backgroundOverlay}>
           <img src="/images/hero_pic3.png" alt="" />
           <Firefly />
           <div className={styles.body}>
             <Navbar theme={theme} setTheme={setTheme} />
-            <Provider>
-              {children}
-            </Provider>
+            <Provider>{children}</Provider>
           </div>
         </div>
       </div>

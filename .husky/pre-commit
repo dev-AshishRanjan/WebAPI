@@ -4,4 +4,5 @@
 echo "commit to WebApi"
 echo "pre-commit : started"
 npm run format
+git add .
 echo "pre-commit : completed"

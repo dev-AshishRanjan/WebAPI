@@ -4,7 +4,8 @@ import styles from "@/styles/Rest.module.scss";
 
 const Home = () => {
   // Using the generated hooks for crudRead route
-  const { data: crudReadData, error: crudReadError }:any = trpc.crudRead.useQuery();
+  const { data: crudReadData, error: crudReadError }: any =
+    trpc.crudRead.useQuery();
 
   // Using the generated hooks for crudCreate route
   const createMutation = trpc.crudCreate.useMutation();
@@ -16,21 +17,23 @@ const Home = () => {
   const deleteMutation = trpc.crudDelete.useMutation();
 
   // Using the generated hooks for news route (without type)
-  const { data: newsData, error: newsError }:any = trpc.news.useQuery({ type: 'all' });
+  const { data: newsData, error: newsError }: any = trpc.news.useQuery({
+    type: "all",
+  });
   console.log({ newsData, newsError });
 
-
   // Using the generated hooks for news route (with type="sports")
-  const { data: sportsNewsData, error: sportsNewsError }:any = trpc.news.useQuery({ type: "sports" });
+  const { data: sportsNewsData, error: sportsNewsError }: any =
+    trpc.news.useQuery({ type: "sports" });
 
   // Using the generated hooks for movie route
-  const { data: movieData, error: movieError }:any = trpc.movie.useQuery();
+  const { data: movieData, error: movieError }: any = trpc.movie.useQuery();
 
   // Using the generated hooks for anime route
-  const { data: animeData, error: animeError }:any = trpc.anime.useQuery();
+  const { data: animeData, error: animeError }: any = trpc.anime.useQuery();
 
   // Using the generated hooks for manga route
-  const { data: mangaData, error: mangaError }:any = trpc.manga.useQuery();
+  const { data: mangaData, error: mangaError }: any = trpc.manga.useQuery();
 
   if (
     crudReadError ||
@@ -47,9 +50,22 @@ const Home = () => {
     <div className={styles.restbody}>
       <div className={`cloudyBgDiv ${styles.routesection}`}>
         <h1>CRUD Data</h1>
-        <div style={{display:"flex", flexWrap:"wrap", width:"100%", gap:"0.5rem"}}>
-        {crudReadData?.data.map((item: any) => (
-          <div key={item.id} className="route" style={{ padding: "1rem", margin: '1rem' }}>{JSON.stringify(item)}</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            gap: "0.5rem",
+          }}
+        >
+          {crudReadData?.data.map((item: any) => (
+            <div
+              key={item.id}
+              className="route"
+              style={{ padding: "1rem", margin: "1rem" }}
+            >
+              {JSON.stringify(item)}
+            </div>
           ))}
         </div>
 
@@ -96,47 +112,132 @@ const Home = () => {
 
       <div className={`cloudyBgDiv ${styles.routesection}`}>
         <h1>[All] News Data</h1>
-        <div style={{display:"flex", flexWrap:"wrap", width:"100%", gap:"0.5rem"}}>
-        {newsData?.data.articles.slice(-20).map((article: any) => (
-          <div key={article.id} className="route" style={{ padding: "0.5rem 1rem", margin: '1rem',minWidth:"2rem" }}>{article.title}</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            gap: "0.5rem",
+          }}
+        >
+          {newsData?.data.articles.slice(-20).map((article: any) => (
+            <div
+              key={article.id}
+              className="route"
+              style={{
+                padding: "0.5rem 1rem",
+                margin: "1rem",
+                minWidth: "2rem",
+              }}
+            >
+              {article.title}
+            </div>
           ))}
-          </div>
+        </div>
       </div>
 
       <div className={`cloudyBgDiv ${styles.routesection}`}>
         <h1>[Sports] News Data</h1>
-        <div style={{display:"flex", flexWrap:"wrap", width:"100%", gap:"0.5rem"}}>
-        {sportsNewsData?.data.articles.slice(-20).map((article: any) => (
-          <div key={article.id} className="route" style={{ padding: "0.5rem 1rem", margin: '1rem',minWidth:"2rem" }}>{article.title}</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            gap: "0.5rem",
+          }}
+        >
+          {sportsNewsData?.data.articles.slice(-20).map((article: any) => (
+            <div
+              key={article.id}
+              className="route"
+              style={{
+                padding: "0.5rem 1rem",
+                margin: "1rem",
+                minWidth: "2rem",
+              }}
+            >
+              {article.title}
+            </div>
           ))}
-          </div>
+        </div>
       </div>
 
       <div className={`cloudyBgDiv ${styles.routesection}`}>
         <h1>Movie Data</h1>
-        <div style={{display:"flex", flexWrap:"wrap", width:"100%", gap:"0.5rem"}}>
-        {movieData?.data.results.map((item: any) => (
-          <div key={item.id} className="route" style={{ padding: "0.5rem 1rem", margin: '1rem' ,minWidth:"2rem"}}>{item.title}</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            gap: "0.5rem",
+          }}
+        >
+          {movieData?.data.results.map((item: any) => (
+            <div
+              key={item.id}
+              className="route"
+              style={{
+                padding: "0.5rem 1rem",
+                margin: "1rem",
+                minWidth: "2rem",
+              }}
+            >
+              {item.title}
+            </div>
           ))}
-          </div>
+        </div>
       </div>
 
       <div className={`cloudyBgDiv ${styles.routesection}`}>
         <h1>Anime Data</h1>
-        <div style={{display:"flex", flexWrap:"wrap", width:"100%", gap:"0.5rem"}}>
-        {animeData?.data.map((item: any) => (
-          <div key={item.id} className="route" style={{ padding: "0.5rem 1rem", margin: '1rem',minWidth:"2rem" }}>{item.name}</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            gap: "0.5rem",
+          }}
+        >
+          {animeData?.data.map((item: any) => (
+            <div
+              key={item.id}
+              className="route"
+              style={{
+                padding: "0.5rem 1rem",
+                margin: "1rem",
+                minWidth: "2rem",
+              }}
+            >
+              {item.name}
+            </div>
           ))}
-          </div>
+        </div>
       </div>
 
       <div className={`cloudyBgDiv ${styles.routesection}`}>
         <h1>Manga Data</h1>
-        <div style={{display:"flex", flexWrap:"wrap", width:"100%", gap:"0.5rem"}}>
-        {mangaData?.data.map((item: any) => (
-          <div key={item.id} className="route" style={{ padding: "0.5rem 1rem", margin: '1rem', minWidth:"2rem" }}>{item.name}</div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            width: "100%",
+            gap: "0.5rem",
+          }}
+        >
+          {mangaData?.data.map((item: any) => (
+            <div
+              key={item.id}
+              className="route"
+              style={{
+                padding: "0.5rem 1rem",
+                margin: "1rem",
+                minWidth: "2rem",
+              }}
+            >
+              {item.name}
+            </div>
           ))}
-          </div>
+        </div>
       </div>
     </div>
   );

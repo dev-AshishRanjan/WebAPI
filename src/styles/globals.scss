@@ -1,98 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;600;900&family=Poppins:wght@300&family=Roboto+Mono&family=Splash&family=Ubuntu:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;600;900&family=Poppins:wght@300&family=Roboto+Mono&family=Splash&family=Ubuntu:wght@300;500;700&display=swap");
 
 @import "./mixins.scss";
 
-// themes 
+// themes
 // 1. Morning : light pink and blue
 // 2. Day : default, white
 // 3. Evening : yellow, orange, red
 // 4. Night : voilet,black
 
 :root {
-  --bg-1:#c4c7de;
-  --bg-2:#edeaec;
-  --bg-3:#8a5e48;
-  --text-1:#5b2328;
-  --text-2:#39374d;
-  --text-3:#e8e0e0;
-  --firefly-nor:var(--bg-1);
-  --firefly-bri:var(--bg-3);
-  --card-bg-0:#c4c7de45; //bg-1 : 45
-  --card-bg-1:var(--bg-2);
-  --card-bg-2:var(--bg-1);
-  --route-bg:var(--bg-1);
-  --cloud-bg:#ccd4de;
+  --bg-1: #c4c7de;
+  --bg-2: #edeaec;
+  --bg-3: #8a5e48;
+  --text-1: #5b2328;
+  --text-2: #39374d;
+  --text-3: #e8e0e0;
+  --firefly-nor: var(--bg-1);
+  --firefly-bri: var(--bg-3);
+  --card-bg-0: #c4c7de45; //bg-1 : 45
+  --card-bg-1: var(--bg-2);
+  --card-bg-2: var(--bg-1);
+  --route-bg: var(--bg-1);
+  --cloud-bg: #ccd4de;
 }
 
 .morning {
-  --bg-1:#e8e0e0;
-  --bg-2:#e2f3ff;
-  --bg-3:#ff69b4;
-  --text-1:#5b2328;
-  --text-2:#39374d;
-  --text-3:#e8e0e0;
-  --firefly-nor:var(--bg-1);
-  --firefly-bri:var(--bg-3);
-  --card-bg-0:#e8e0e045; //bg-1 : 45
-  --card-bg-1:var(--bg-2);
-  --card-bg-2:var(--bg-1);
-  --route-bg:var(--bg-1);
-  --cloud-bg:#f8f1f1;
+  --bg-1: #e8e0e0;
+  --bg-2: #e2f3ff;
+  --bg-3: #ff69b4;
+  --text-1: #5b2328;
+  --text-2: #39374d;
+  --text-3: #e8e0e0;
+  --firefly-nor: var(--bg-1);
+  --firefly-bri: var(--bg-3);
+  --card-bg-0: #e8e0e045; //bg-1 : 45
+  --card-bg-1: var(--bg-2);
+  --card-bg-2: var(--bg-1);
+  --route-bg: var(--bg-1);
+  --cloud-bg: #f8f1f1;
 }
 
 .day {
-  --bg-1:#c4c7de;
-  --bg-2:#edeaec;
-  --bg-3:#8a5e48;
-  --text-1:#5b2328;
-  --text-2:#39374d;
-  --text-3:#e8e0e0;
-  --firefly-nor:var(--bg-1);
-  --firefly-bri:var(--bg-3);
-  --card-bg-0:#c4c7de45; //bg-1 : 45
-  --card-bg-1:var(--bg-2);
-  --card-bg-2:var(--bg-1);
-  --route-bg:var(--bg-1);
-  --cloud-bg:#ccd4de;
+  --bg-1: #c4c7de;
+  --bg-2: #edeaec;
+  --bg-3: #8a5e48;
+  --text-1: #5b2328;
+  --text-2: #39374d;
+  --text-3: #e8e0e0;
+  --firefly-nor: var(--bg-1);
+  --firefly-bri: var(--bg-3);
+  --card-bg-0: #c4c7de45; //bg-1 : 45
+  --card-bg-1: var(--bg-2);
+  --card-bg-2: var(--bg-1);
+  --route-bg: var(--bg-1);
+  --cloud-bg: #ccd4de;
 }
 
 .evening {
-  --bg-1:#FFE382;
-  --bg-2:#FFAD84;
-  --bg-3:#ffd700;
-  --text-1:#5b2328;
-  --text-2:#39374d;
-  --text-3:#e8e0e0;
-  --firefly-nor:var(--bg-1);
-  --firefly-bri:var(--bg-3);
-  --card-bg-0:#FFE38245; //bg-1 : 45
-  --card-bg-1:var(--bg-2);
-  --card-bg-2:var(--bg-1);
-  --route-bg:var(--bg-1);
-  --cloud-bg:#FFC47E;
+  --bg-1: #ffe382;
+  --bg-2: #ffad84;
+  --bg-3: #ffd700;
+  --text-1: #5b2328;
+  --text-2: #39374d;
+  --text-3: #e8e0e0;
+  --firefly-nor: var(--bg-1);
+  --firefly-bri: var(--bg-3);
+  --card-bg-0: #ffe38245; //bg-1 : 45
+  --card-bg-1: var(--bg-2);
+  --card-bg-2: var(--bg-1);
+  --route-bg: var(--bg-1);
+  --cloud-bg: #ffc47e;
 }
 
 .night {
-  --bg-1:#221743;
-  --bg-2:#101623;
-  --bg-3:purple;
-  --text-1:#c4c7de;
-  --text-2:#e8e0e0;
-  --text-3:#8a5e48;
-  --firefly-nor:var(--bg-1);
-  --firefly-bri:var(--bg-3);
-  --card-bg-0:#22174345; //bg-1 : 45
-  --card-bg-1:var(--bg-2);
-  --card-bg-2:var(--bg-1);
-  --route-bg:var(--bg-1);
-  --cloud-bg:#2d234c;
+  --bg-1: #221743;
+  --bg-2: #101623;
+  --bg-3: purple;
+  --text-1: #c4c7de;
+  --text-2: #e8e0e0;
+  --text-3: #8a5e48;
+  --firefly-nor: var(--bg-1);
+  --firefly-bri: var(--bg-3);
+  --card-bg-0: #22174345; //bg-1 : 45
+  --card-bg-1: var(--bg-2);
+  --card-bg-2: var(--bg-1);
+  --route-bg: var(--bg-1);
+  --cloud-bg: #2d234c;
 }
 
 // #a09aab, #432f3f, #edeaec, #4d526a, #875c48, #d6c2bd
 // #a59fb0, #39374d, #5b2328, #e8e0e0, #5f607c, #8a5e48, #c4c7de, #7c6675, #ccd4de
 // @media (prefers-color-scheme: dark) {
 //   :root {
-    
+
 //   }
 // }
 
@@ -100,31 +100,31 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Abel','Montserrat',serif;
+  font-family: "Abel", "Montserrat", serif;
   transition: all 0.2s ease-in;
-  &::selection{
+  &::selection {
     background: var(--bg-3);
     border-radius: 0.3rem;
   }
 }
-h2{
+h2 {
   color: var(--text-2);
 }
 
-.tag{
+.tag {
   font-size: 1.3rem;
   padding: 0.2rem 0.5rem;
   border-radius: 1rem;
   border: 1px solid var(--text-1);
   transition: all 0.2s ease-in;
   cursor: pointer;
-  &:hover{
+  &:hover {
     background: var(--text-1);
     color: var(--text-3);
   }
 }
 
-.btn{
+.btn {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   border: none;
@@ -138,7 +138,7 @@ h2{
   align-items: center;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  display:inline-block;
+  display: inline-block;
   @include flexCenter;
   // box-shadow: 2px 2px 5px var(--bg-3);
   &:active {
@@ -146,11 +146,11 @@ h2{
   }
   &:hover {
     background: var(--text-1);
-    color:var(--text-3);
+    color: var(--text-3);
   }
 }
 
-select{
+select {
   -moz-appearance: none;
   /* Remove default arrow in other browsers */
   -webkit-appearance: none;
@@ -158,142 +158,149 @@ select{
   font-size: 1rem;
 }
 
-.cloudyBgDiv{
+.cloudyBgDiv {
   min-height: 100vh;
   width: 100vw;
   padding: 1.5rem;
-  background: radial-gradient(circle at left,var(--cloud-bg) 30%,transparent),radial-gradient(circle at center,var(--cloud-bg) 30%,transparent);
+  background: radial-gradient(circle at left, var(--cloud-bg) 30%, transparent),
+    radial-gradient(circle at center, var(--cloud-bg) 30%, transparent);
 }
 
-.schema{
+.schema {
   min-height: 5rem;
   width: 15rem;
   padding: 1rem;
   border-radius: 1rem;
   background: var(--route-bg);
-  border: 2px  dashed var(--text-1);
-  span{
+  border: 2px dashed var(--text-1);
+  span {
     font-style: italic;
   }
 }
-.route{
+.route {
   // min-height: 2rem;
   min-width: 30rem;
   border-radius: 1rem;
   background: var(--route-bg);
-  border: 2px  dashed var(--text-1);
+  border: 2px dashed var(--text-1);
   overflow-x: hidden;
   padding-right: 1rem;
   transition: all 0.2s ease-in;
   cursor: pointer;
   color: var(--text-1);
-  div{
+  div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    .type{
+    .type {
       background: var(--bg-3);
       color: var(--text-2);
       font-size: 1.5rem;
       padding: 0.5rem;
     }
-    .vip{
+    .vip {
       font-size: 1.5rem;
       color: var(--text-1);
     }
-    .detail{
+    .detail {
       color: var(--text-2);
     }
-    .play{
+    .play {
       @include flexCenter;
       font-size: 1.5rem;
       display: none;
       color: var(--text-2);
     }
-    &:hover .play{
+    &:hover .play {
       display: flex;
     }
   }
 }
-.trpcCode{
+.trpcCode {
   // min-height: 2rem;
- @extend .route;
- width: 30rem;
+  @extend .route;
+  width: 30rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   // whiteSpace: 'pre-wrap';
   gap: 0.5rem;
-    .type{
-      display: block;
-      width: 100%;
-      text-align: center;
-      background: var(--bg-3);
-      color: var(--text-2);
-      border-radius: 1rem;
-      font-size: 1.5rem;
-      padding: 0.5rem;
-    }
-    .vip{
-      margin-top: 1rem;
-      font-size: 1.3rem;
-      color: var(--text-1);
-      // whiteSpace: 'pre-wrap';
-    }
+  .type {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: var(--bg-3);
+    color: var(--text-2);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .vip {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: var(--text-1);
+    // whiteSpace: 'pre-wrap';
+  }
 }
 
 // copyblock
-.sc-gsTDqH,.sc-gsTDqH>span, .linenumber,.sc-gsTDqH>button,.trpcCode>div,.trpcCode>div>span,.trpcCode>div>button{
+.sc-gsTDqH,
+.sc-gsTDqH > span,
+.linenumber,
+.sc-gsTDqH > button,
+.trpcCode > div,
+.trpcCode > div > span,
+.trpcCode > div > button {
   background: unset !important;
   color: var(--text-2) !important;
   outline: none;
 }
-.token{
+.token {
   color: var(--text-1) !important;
 }
-.sc-gsTDqH>button,.trpcCode>div>button{
+.sc-gsTDqH > button,
+.trpcCode > div > button {
   border: 1px solid var(--text-1);
-  svg{
+  svg {
     fill: var(--text-1);
   }
 }
 
-
-.centered{
+.centered {
   justify-content: center !important;
 }
 
 @media (max-width: 769px) {
-  .route{
+  .route {
     // min-height: 2rem;
     min-width: 20rem;
-    border: 1.5px  dashed var(--text-1);
+    border: 1.5px dashed var(--text-1);
     padding-right: 0.3rem;
-    div{
+    div {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 0.3rem;
-      .type{
+      .type {
         font-size: 1.2rem;
         padding: 0.5rem;
       }
-      .vip{
+      .vip {
         font-size: 1rem;
       }
-      .detail{
+      .detail {
         font-size: 0.8rem;
       }
-      .play{
+      .play {
         display: none;
       }
-      &:hover .play{
+      &:hover .play {
         display: none;
       }
     }
   }
-  .trpcCode{
+  .trpcCode {
     width: 20rem;
   }
 }

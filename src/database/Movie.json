@@ -4,11 +4,7 @@
     {
       "adult": false,
       "backdrop_path": "/9PqD3wSIjntyJDBzMNuxuKHwpUD.jpg",
-      "genre_ids": [
-        16,
-        35,
-        10751
-      ],
+      "genre_ids": [16, 35, 10751],
       "id": 1075794,
       "original_language": "en",
       "original_title": "Leo",
@@ -24,13 +20,7 @@
     {
       "adult": false,
       "backdrop_path": "/xgGGinKRL8xeRkaAR9RMbtyk60y.jpg",
-      "genre_ids": [
-        16,
-        10751,
-        10402,
-        14,
-        35
-      ],
+      "genre_ids": [16, 10751, 10402, 14, 35],
       "id": 901362,
       "original_language": "en",
       "original_title": "Trolls Band Together",
@@ -46,10 +36,7 @@
     {
       "adult": false,
       "backdrop_path": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
-      "genre_ids": [
-        18,
-        36
-      ],
+      "genre_ids": [18, 36],
       "id": 872585,
       "original_language": "en",
       "original_title": "Oppenheimer",
@@ -65,11 +52,7 @@
     {
       "adult": false,
       "backdrop_path": "/4MUfDtBqUFqotGF5RJOfNfoBTLo.jpg",
-      "genre_ids": [
-        28,
-        27,
-        14
-      ],
+      "genre_ids": [28, 27, 14],
       "id": 951546,
       "original_language": "en",
       "original_title": "Reign of Chaos",
@@ -85,10 +68,7 @@
     {
       "adult": false,
       "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-      "genre_ids": [
-        27,
-        9648
-      ],
+      "genre_ids": [27, 9648],
       "id": 507089,
       "original_language": "en",
       "original_title": "Five Nights at Freddy's",
@@ -104,11 +84,7 @@
     {
       "adult": false,
       "backdrop_path": "/j9LX1sF7WSXmJlnhf0RGpWzEC0i.jpg",
-      "genre_ids": [
-        28,
-        12,
-        53
-      ],
+      "genre_ids": [28, 12, 53],
       "id": 299054,
       "original_language": "en",
       "original_title": "Expend4bles",
@@ -124,11 +100,7 @@
     {
       "adult": false,
       "backdrop_path": "/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
+      "genre_ids": [28, 80, 53],
       "id": 385687,
       "original_language": "en",
       "original_title": "Fast X",
@@ -144,11 +116,7 @@
     {
       "adult": false,
       "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-      "genre_ids": [
-        878,
-        28,
-        53
-      ],
+      "genre_ids": [878, 28, 53],
       "id": 670292,
       "original_language": "en",
       "original_title": "The Creator",
@@ -164,11 +132,7 @@
     {
       "adult": false,
       "backdrop_path": "/qX0HHTH4i8joKfYsVJTGu8ebBMZ.jpg",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
+      "genre_ids": [28, 12, 878],
       "id": 775244,
       "original_language": "ar",
       "original_title": "موسى",
@@ -184,11 +148,7 @@
     {
       "adult": false,
       "backdrop_path": "/vRx6kzCItpqwnYCcj2z8qf70gv3.jpg",
-      "genre_ids": [
-        28,
-        18,
-        10749
-      ],
+      "genre_ids": [28, 18, 10749],
       "id": 10908,
       "original_language": "en",
       "original_title": "Inferno",
@@ -204,12 +164,7 @@
     {
       "adult": false,
       "backdrop_path": "/8WBh82iOYRykS3C05RipWTX70xh.jpg",
-      "genre_ids": [
-        35,
-        14,
-        10751,
-        80
-      ],
+      "genre_ids": [35, 14, 10751, 80],
       "id": 798021,
       "original_language": "en",
       "original_title": "Family Switch",
@@ -225,10 +180,7 @@
     {
       "adult": false,
       "backdrop_path": "/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-      "genre_ids": [
-        28,
-        53
-      ],
+      "genre_ids": [28, 53],
       "id": 575264,
       "original_language": "en",
       "original_title": "Mission: Impossible - Dead Reckoning Part One",
@@ -244,9 +196,7 @@
     {
       "adult": false,
       "backdrop_path": "/wurJckmxIzn2GrJcPDuNFFy1gWx.jpg",
-      "genre_ids": [
-        878
-      ],
+      "genre_ids": [878],
       "id": 920258,
       "original_language": "en",
       "original_title": "The Immortal Wars: Rebirth",
@@ -262,10 +212,7 @@
     {
       "adult": false,
       "backdrop_path": "/zIYROrkHJPYB3VTiW1L9QVgaQO.jpg",
-      "genre_ids": [
-        28,
-        35
-      ],
+      "genre_ids": [28, 35],
       "id": 897087,
       "original_language": "en",
       "original_title": "Freelance",
@@ -281,11 +228,7 @@
     {
       "adult": false,
       "backdrop_path": "/bWIIWhnaoWx3FTVXv6GkYDv3djL.jpg",
-      "genre_ids": [
-        18,
-        878,
-        28
-      ],
+      "genre_ids": [18, 878, 28],
       "id": 940721,
       "original_language": "ja",
       "original_title": "ゴジラ-1.0",
@@ -301,11 +244,7 @@
     {
       "adult": false,
       "backdrop_path": "/iaMIylLoN7Y3CvrA0pg2ZFKjk26.jpg",
-      "genre_ids": [
-        10752,
-        18,
-        28
-      ],
+      "genre_ids": [10752, 18, 28],
       "id": 1047925,
       "original_language": "en",
       "original_title": "Come Out Fighting",
@@ -321,10 +260,7 @@
     {
       "adult": false,
       "backdrop_path": "/EEASOZj5Mm2u6G3K4HS4pKIlfC.jpg",
-      "genre_ids": [
-        27,
-        9648
-      ],
+      "genre_ids": [27, 9648],
       "id": 1035982,
       "original_language": "en",
       "original_title": "Hell House LLC Origins: The Carmichael Manor",
@@ -340,11 +276,7 @@
     {
       "adult": false,
       "backdrop_path": "/awWppR6CmJ6gqM6UjMz5DJ4zZaP.jpg",
-      "genre_ids": [
-        36,
-        28,
-        18
-      ],
+      "genre_ids": [36, 28, 18],
       "id": 960481,
       "original_language": "mn",
       "original_title": "Хотулун гүнж: Алтан судрын эрэлд",
@@ -360,13 +292,7 @@
     {
       "adult": false,
       "backdrop_path": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-      "genre_ids": [
-        16,
-        10751,
-        12,
-        14,
-        35
-      ],
+      "genre_ids": [16, 10751, 12, 14, 35],
       "id": 502356,
       "original_language": "en",
       "original_title": "The Super Mario Bros. Movie",
@@ -382,11 +308,7 @@
     {
       "adult": false,
       "backdrop_path": "/tC78Pck2YCsUAtEdZwuHYUFYtOj.jpg",
-      "genre_ids": [
-        28,
-        53,
-        80
-      ],
+      "genre_ids": [28, 53, 80],
       "id": 926393,
       "original_language": "en",
       "original_title": "The Equalizer 3",

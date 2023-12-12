@@ -3,8 +3,8 @@ import { createTRPCNext } from "@trpc/next";
 import { AppRouter } from "@/pages/api/trpc/[trpc]";
 
 function getBaseUrl() {
-  if (typeof window !== 'undefined') {
-    return '';
+  if (typeof window !== "undefined") {
+    return "";
   }
   if (process.env.SERVER) {
     return `${process.env.SERVER}`;
@@ -17,9 +17,9 @@ export const trpc = createTRPCNext<AppRouter>({
     return {
       links: [
         httpBatchLink({
-          url: getBaseUrl() + '/api/trpc',
-        })
-      ]
-    }
-  }
-})
+          url: getBaseUrl() + "/api/trpc",
+        }),
+      ],
+    };
+  },
+});

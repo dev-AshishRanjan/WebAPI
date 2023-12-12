@@ -1,6 +1,6 @@
 // Import necessary modules and types
-import type { NextApiRequest, NextApiResponse } from 'next';
-const connectDataBase =require("../config/database");
+import type { NextApiRequest, NextApiResponse } from "next";
+const connectDataBase = require("../config/database");
 import WebCRUDs from "../config/schema";
 // import mongoose from 'mongoose';
 
@@ -17,10 +17,15 @@ type ErrorResponse = {
 };
 
 // API route handler
-const handler = async (req: NextApiRequest, res: NextApiResponse<Data | ErrorResponse>) => {
-  const { method, query: { id } } = req;
-  console.log({method,id});
-  
+const handler = async (
+  req: NextApiRequest,
+  res: NextApiResponse<Data | ErrorResponse>,
+) => {
+  const {
+    method,
+    query: { id },
+  } = req;
+  console.log({ method, id });
 
   try {
     // Connect to the database
@@ -51,7 +56,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Data | ErrorRes
         const updateData = await WebCRUDs.findByIdAndUpdate(
           id,
           { name, github },
-          { new: true } // Return the updated document
+          { new: true }, // Return the updated document
         );
         if (updateData) {
           res.status(200).json({ data: updateData });
@@ -64,10 +69,16 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Data | ErrorRes
         // Create a new document
         // const { newId,newName, newGithub } = req.body;
         // console.log(req.body);
-        if (!req.body.id||!req.body.name||!req.body.github) {
-          return res.status(400).json({ error: "ID,Name,GitHub fields are required" });
+        if (!req.body.id || !req.body.name || !req.body.github) {
+          return res
+            .status(400)
+            .json({ error: "ID,Name,GitHub fields are required" });
         }
-        const newData = new WebCRUDs({ id:req.body.id,name: req.body.name, github: req.body.github });
+        const newData = new WebCRUDs({
+          id: req.body.id,
+          name: req.body.name,
+          github: req.body.github,
+        });
         const savedData = await newData.save();
         res.status(201).json({ data: savedData });
         break;

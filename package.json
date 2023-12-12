@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "format": "prettier --write . --ignore '{node_modules,public,.next}"
+    "format": "prettier --write . --ignore '{node_modules,public,.next}'"
   },
   "dependencies": {
     "@react-three/drei": "^9.91.0",

@@ -9,7 +9,8 @@ import { Mesh } from "three";
 import styles from "./style.module.scss";
 
 function MeshComponent() {
-  const fileUrl = "/images/elaina_-_the_witchs_journeysummerwhitedress (1)/scene.gltf"; //path of the scene.glb or scene.gltf file from public
+  const fileUrl =
+    "/images/elaina_-_the_witchs_journeysummerwhitedress (1)/scene.gltf"; //path of the scene.glb or scene.gltf file from public
   const mesh = useRef<Mesh>(null!);
   // const gltf = useLoader(GLTFLoader, fileUrl);
 
@@ -17,11 +18,7 @@ function MeshComponent() {
   //   mesh.current.rotation.y += 0.01;
   // });
 
-  return (
-    <mesh ref={mesh}>
-      {/* <primitive object={gltf.scene} /> */}
-    </mesh>
-  );
+  return <mesh ref={mesh}>{/* <primitive object={gltf.scene} /> */}</mesh>;
 }
 
 export function Elina() {

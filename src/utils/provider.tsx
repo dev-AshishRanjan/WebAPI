@@ -6,8 +6,8 @@ import React, { useState } from "react";
 import { trpc } from "./client";
 
 function getBaseUrl() {
-  if (typeof window !== 'undefined') {
-    return '';
+  if (typeof window !== "undefined") {
+    return "";
   }
   if (process.env.SERVER) {
     return `${process.env.SERVER}`;
@@ -21,10 +21,10 @@ export default function Provider({ children }: { children: React.ReactNode }) {
     trpc.createClient({
       links: [
         httpBatchLink({
-          url: getBaseUrl() + '/api/trpc',
+          url: getBaseUrl() + "/api/trpc",
         }),
       ],
-    })
+    }),
   );
   return (
     <trpc.Provider client={trpcClient} queryClient={queryClient}>

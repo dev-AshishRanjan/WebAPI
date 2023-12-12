@@ -1,5 +1,5 @@
 @use "../styles/mixins.scss";
-.card1{
+.card1 {
   height: 15rem;
   width: 20rem;
   border-radius: 0.7rem;
@@ -14,16 +14,16 @@
   text-decoration: none;
   color: var(--text-1);
   transition: all 0.2s ease-in;
-  .cardInner{
+  .cardInner {
     border-radius: 0.7rem;
     padding: 1rem;
     width: 100%;
     height: 10rem;
     background: var(--card-bg-1);
-    clip-path: polygon(0% 0%, 100% 0%,100% 75%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 100%, 0% 100%);
     animation: cardAnimate 2s ease-in infinite alternate;
   }
-  .cardArrow{
+  .cardArrow {
     position: absolute;
     top: 0rem;
     right: 0rem;
@@ -36,69 +36,70 @@
     opacity: 0;
     animation: cardAnimate 2s ease-in infinite alternate;
   }
-  &:hover .cardArrow{
+  &:hover .cardArrow {
     opacity: 1;
   }
-  &:hover .cardInner{
-    clip-path: polygon(0% 0%, 100% 0%,100% 100%, 0% 100%);
+  &:hover .cardInner {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   }
 }
-.card2{
+.card2 {
   @extend .card1;
   transform: translateY(1rem);
-  .cardInner,.cardArrow{
-  animation-delay: -1s;
+  .cardInner,
+  .cardArrow {
+    animation-delay: -1s;
   }
 }
-.card3{
+.card3 {
   @extend .card1;
-  .cardInner{
+  .cardInner {
     background: var(--card-bg-2);
     animation-delay: -2s;
   }
-  .cardArrow{
+  .cardArrow {
     animation-delay: -2s;
     background: var(--card-bg-2);
   }
 }
-.card4{
+.card4 {
   @extend .card3;
-  .cardInner,.cardArrow{
-  animation-delay: -3s;
+  .cardInner,
+  .cardArrow {
+    animation-delay: -3s;
   }
   transform: translateY(-2rem);
 }
 
-
-@keyframes cardAnimate{
-  0%{
+@keyframes cardAnimate {
+  0% {
     transform: translateY(1rem);
   }
-  100%{
+  100% {
     transform: translateY(0);
   }
 }
 
 @media (max-width: 769px) {
-  .card1{
+  .card1 {
     transform: translateX(-1rem);
   }
-  .card2{
+  .card2 {
     transform: translateX(1rem);
   }
-  .card4{
+  .card4 {
     transform: translateX(1rem);
   }
 }
 
-@media (min-width:769px) and (max-width: 1350px) {
-  .card1{
+@media (min-width: 769px) and (max-width: 1350px) {
+  .card1 {
     transform: unset;
   }
-  .card2{
+  .card2 {
     transform: unset;
   }
-  .card4{
+  .card4 {
     transform: unset;
   }
 }

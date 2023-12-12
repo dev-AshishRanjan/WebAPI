@@ -47,13 +47,13 @@
       }
       &:hover {
         background: var(--text-1);
-        color:var(--text-3);
+        color: var(--text-3);
       }
     }
   }
 }
 
-@media (max-width:789px){
+@media (max-width: 789px) {
   .navWrapper {
     justify-content: center !important;
     backdrop-filter: blur(0.2rem);

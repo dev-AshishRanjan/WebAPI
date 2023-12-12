@@ -6,19 +6,16 @@ import Link from "next/link";
 // import { FiSun, FiSunrise, FiSunset, FiMoon } from "react-icons/fi";
 // import { TbBrandTypescript } from "react-icons/tb";
 
-const Navbar = ({theme ,setTheme}:any) => {
+const Navbar = ({ theme, setTheme }: any) => {
   // const [theme, setTheme] = useState("auto");
-  useEffect(()=>{
-    const savedTheme:any=localStorage.getItem("WebApiTheme"); 
+  useEffect(() => {
+    const savedTheme: any = localStorage.getItem("WebApiTheme");
     setTheme(savedTheme);
-  })
+  });
   return (
     <div className={styles.navWrapper}>
       <div className={styles.nav_links}>
-        <Link
-          href="/"
-          className={``}
-        >
+        <Link href="/" className={``}>
           HOME
         </Link>
         <Link
@@ -28,11 +25,19 @@ const Navbar = ({theme ,setTheme}:any) => {
         >
           GITHUB
         </Link>
-        <select name="theme" id="theme" className="btn" value={theme} onChange={(e) => {
-          setTheme(e.target.value);
-          localStorage.setItem("WebApiTheme", e.target.value);
-        }}>
-          <option value="auto" defaultChecked >Auto</option>
+        <select
+          name="theme"
+          id="theme"
+          className="btn"
+          value={theme}
+          onChange={(e) => {
+            setTheme(e.target.value);
+            localStorage.setItem("WebApiTheme", e.target.value);
+          }}
+        >
+          <option value="auto" defaultChecked>
+            Auto
+          </option>
           <option value="morning">Morning</option>
           <option value="day">Day</option>
           <option value="evening">Evening</option>

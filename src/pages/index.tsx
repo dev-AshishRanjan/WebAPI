@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import styles from "../styles/Home.module.scss";
-import Card from '@/components/Card';
+import Card from "@/components/Card";
 
 const Index = () => {
   return (
@@ -25,13 +25,33 @@ const Index = () => {
         </div>
       </div>
       <div className={styles.cards}>
-        <Card cardtype="card1" route="/rest" name="REST" details="Stateless architecture for flexible web services, simplifying communication in distributed systems."/>
-        <Card cardtype="card2" route="/graphql" name="GraphQL" details="Precise data queries, fetching exactly what's needed, streamlining API interactions with elegance."/>
-        <Card cardtype="card3" route="/trpc" name="tRPC" details="Seamless communication with type safety, ensuring server-client harmony in a robust and developer-friendly manner."/>
-        <Card cardtype="card4" route="/grpc" name="gRPC" details="High-performance, cross-language RPC, leveraging protocol buffers for efficient and reliable remote procedure calls in distributed systems."/>
+        <Card
+          cardtype="card1"
+          route="/rest"
+          name="REST"
+          details="Stateless architecture for flexible web services, simplifying communication in distributed systems."
+        />
+        <Card
+          cardtype="card2"
+          route="/graphql"
+          name="GraphQL"
+          details="Precise data queries, fetching exactly what's needed, streamlining API interactions with elegance."
+        />
+        <Card
+          cardtype="card3"
+          route="/trpc"
+          name="tRPC"
+          details="Seamless communication with type safety, ensuring server-client harmony in a robust and developer-friendly manner."
+        />
+        <Card
+          cardtype="card4"
+          route="/grpc"
+          name="gRPC"
+          details="High-performance, cross-language RPC, leveraging protocol buffers for efficient and reliable remote procedure calls in distributed systems."
+        />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Index;
