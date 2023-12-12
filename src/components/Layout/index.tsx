@@ -13,9 +13,9 @@ const Layout = ({ children }: any) => {
     if (theme === "auto") {
       const time = new Date().getHours();
       // console.log({ time });
-      if (time >= 8 && time <= 12) {
+      if (time >= 6 && time <= 10) {
         setactualTheme("morning");
-      } else if (time > 12 && time <= 16) {
+      } else if (time > 10 && time <= 16) {
         setactualTheme("day");
       } else if (time > 16 && time <= 20) {
         setactualTheme("evening");

@@ -63,10 +63,10 @@ List of Themes :
 
 Automatic Theme Schedule :
 
-- time >= 8 && time <= 12 : morning
-- time > 12 && time <= 16 : day
-- time > 16 && time <= 20 : evening
-- time > 20 && time < 8 : night
+- 6am to 10pm : morning
+- 10pm to 4pm : day
+- 4pm to 8pm : evening
+- 8pm to 6am : night
 
 ## TO DOs:
 
