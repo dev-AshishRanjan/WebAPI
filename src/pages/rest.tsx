@@ -1,10 +1,94 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "@/styles/Rest.module.scss";
 import { FaPlay } from "react-icons/fa";
+import FetchBox from "@/components/FetchBox";
+import axios from "axios";
+
+interface fetch {
+  method: string;
+  route: string;
+  body?: any;
+  id?: string;
+}
 
 const REST = () => {
+  const [fetchData, setFetchData] = useState(
+    "USE THE REST APIs by clicking on Routes",
+  );
+  const [loading, setLoading] = useState(false);
+  const handleFetch = async ({ method, route, body, id }: fetch) => {
+    setLoading(true);
+
+    if (method === "GET") {
+      fetch(`/${route}`)
+        .then((req) => req.json())
+        .then((res) => {
+          setFetchData(JSON.stringify(res));
+          setLoading(false);
+        });
+    }
+    if (method === "POST") {
+      const sendform = {
+        id: 10,
+        name: "new",
+        github: "dev",
+      };
+      fetch(`/${route}`, {
+        method: method,
+        body: JSON.stringify(sendform),
+        headers: { "Content-Type": "multipart/form-data" },
+      })
+        .then((req) => req.json())
+        .then((res) => {
+          console.log({ res });
+          setFetchData(JSON.stringify(res));
+          setLoading(false);
+        });
+    }
+    if (method === "PUT") {
+      const sendform = {
+        id: 101,
+        name: "Updated",
+        github: "dev",
+      };
+      let tempId;
+      fetch(`/${route}`)
+        .then((req) => req.json())
+        .then((res) => {
+          tempId = res.data.slice(-1)[0]._id;
+          fetch(`/${route}?id=${tempId}`, {
+            method: method,
+            body: JSON.stringify(sendform),
+            headers: { "Content-Type": "multipart/form-data" },
+          })
+            .then((req) => req.json())
+            .then((res) => {
+              console.log({ res });
+              setFetchData(JSON.stringify(res));
+              setLoading(false);
+            });
+        });
+    }
+    if (method === "DELETE") {
+      let tempId;
+      fetch(`/${route}`)
+        .then((req) => req.json())
+        .then((res) => {
+          tempId = res.data.slice(-1)[0]._id;
+          fetch(`/${route}?id=${tempId}`, { method: method })
+            .then((req) => req.json())
+            .then((res) => {
+              console.log({ res });
+              setFetchData(JSON.stringify(res));
+              setLoading(false);
+              // handleFetch({ method: "GET", route: "api/rest/crud" });
+            });
+        });
+    }
+  };
   return (
     <div className={styles.restbody}>
+      <FetchBox data={fetchData} loading={loading} />
       <div className={`cloudyBgDiv ${styles.herosection}`}>
         <div className={styles.data}>
           <h1>REST</h1>
@@ -21,7 +105,7 @@ const REST = () => {
             distributed systems.
           </p>
           <h2>Base Address</h2>
-          <div className="route">
+          <div className="route" title="Click on the route to see API's result">
             <div>
               <span className="type">BA</span>{" "}
               <span className="vip">https://web-api-azure.vercel.app</span>{" "}
@@ -63,7 +147,13 @@ const REST = () => {
             </p>
           </div>
           <h2>Routes</h2>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "GET", route: "api/rest/crud" });
+            }}
+          >
             <div>
               <span className="type">GET</span>{" "}
               <span className="vip">/api/rest/crud</span>{" "}
@@ -73,7 +163,13 @@ const REST = () => {
               </span>
             </div>
           </div>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "POST", route: "api/rest/crud" });
+            }}
+          >
             <div>
               <span className="type">POST</span>{" "}
               <span className="vip">/api/rest/crud</span>{" "}
@@ -83,7 +179,13 @@ const REST = () => {
               </span>
             </div>
           </div>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "PUT", route: "api/rest/crud" });
+            }}
+          >
             <div>
               <span className="type">PUT</span>{" "}
               <span className="vip">/api/rest/crud</span>{" "}
@@ -93,7 +195,13 @@ const REST = () => {
               </span>
             </div>
           </div>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "DELETE", route: "api/rest/crud" });
+            }}
+          >
             <div>
               <span className="type">DELETE</span>{" "}
               <span className="vip">/api/rest/crud</span>{" "}
@@ -119,7 +227,13 @@ const REST = () => {
             You can get high amount of NEWS, which are not filtered based on the
             fields related
           </p>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "GET", route: "api/rest/news" });
+            }}
+          >
             <div>
               <span className="type">GET</span>{" "}
               <span className="vip">/api/rest/news</span>{" "}
@@ -134,7 +248,16 @@ const REST = () => {
             You can get hundred of NEWS, which are filtered based on the fields
             related
           </p>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({
+                method: "GET",
+                route: "api/rest/news?type=general",
+              });
+            }}
+          >
             <div>
               <span className="type">GET</span>{" "}
               <span className="vip">/api/rest/news?type=general</span>{" "}
@@ -179,7 +302,13 @@ const REST = () => {
 
           <h2>Route</h2>
           <p>You can get high quality data for Movies.</p>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "GET", route: "api/rest/movie" });
+            }}
+          >
             <div>
               <span className="type">GET</span>{" "}
               <span className="vip">/api/rest/movie</span>{" "}
@@ -200,7 +329,13 @@ const REST = () => {
 
           <h2>Route</h2>
           <p>You can get high quality data for Animes.</p>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "GET", route: "api/rest/anime" });
+            }}
+          >
             <div>
               <span className="type">GET</span>{" "}
               <span className="vip">/api/rest/anime</span>{" "}
@@ -221,7 +356,13 @@ const REST = () => {
 
           <h2>Route</h2>
           <p>You can get high quality data for Manga.</p>
-          <div className="route">
+          <div
+            className="route"
+            title="Click on the route to see API's result"
+            onClick={() => {
+              handleFetch({ method: "GET", route: "api/rest/manga" });
+            }}
+          >
             <div>
               <span className="type">GET</span>{" "}
               <span className="vip">/api/rest/manga</span>{" "}

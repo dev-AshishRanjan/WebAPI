@@ -110,15 +110,17 @@
 
 // scroll
 
-::-webkit-scrollbar {
-  width: 1rem;
-}
-::-webkit-scrollbar-track {
-  background: var(--card-bg-0);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--bg-1);
-  border-radius: 1rem;
+@media (min-width: 769px) {
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--card-bg-0);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--bg-1);
+    border-radius: 1rem;
+  }
 }
 
 h2 {
@@ -317,4 +319,7 @@ select {
   .trpcCode {
     width: 20rem;
   }
+  // ::-webkit-scrollbar {
+  //   display: none;
+  // }
 }

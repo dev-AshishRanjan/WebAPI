@@ -1,0 +1,25 @@
+.fetchBox {
+  position: absolute;
+  right: 1rem;
+  top: 7rem;
+  min-height: 20rem;
+  max-height: 30rem;
+  width: 20rem;
+  background: var(--route-bg);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px dashed var(--text-1);
+  color: var(--text-1);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.5rem;
+  transition: all 0.3s ease-in;
+  // word-break: break-all;
+  // word-wrap: break-word;
+}
+
+@media (max-width: 1000px) {
+  .fetchBox {
+    display: none;
+  }
+}

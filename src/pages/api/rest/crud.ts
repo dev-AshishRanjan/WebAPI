@@ -52,6 +52,8 @@ const handler = async (
 
       case "PUT":
         // Update a document by ID
+        req.body =
+          typeof req.body === "string" ? JSON.parse(req.body) : req.body;
         const { name, github } = req.body;
         const updateData = await WebCRUDs.findByIdAndUpdate(
           id,
@@ -68,7 +70,9 @@ const handler = async (
       case "POST":
         // Create a new document
         // const { newId,newName, newGithub } = req.body;
-        // console.log(req.body);
+        req.body =
+          typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+        // console.log(req.body.id);
         if (!req.body.id || !req.body.name || !req.body.github) {
           return res
             .status(400)
