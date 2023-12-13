@@ -65,7 +65,7 @@ const TRPC = () => {
               Github : <span>String</span>
             </p>
             <p>
-              _id : <span>Number</span>
+              _id : <span>String</span>
             </p>
             <p>
               __v : <span>String</span>
