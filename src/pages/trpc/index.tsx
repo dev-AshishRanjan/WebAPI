@@ -11,6 +11,7 @@ const TRPC = () => {
     "USE THE tRPC APIs by clicking on Routes",
   );
   const [loading, setLoading] = useState(false);
+  const [mobileFetchBoxClicked, setmobileFetchBoxClicked] = useState(false);
   // hook calls : trpc
   // let { data: crudReadQuery? erro?.datar: crudReadError }: any = trpc.crudRead.useQuery();
   const crudReadQuery: any = trpc.crudRead.useQuery();
@@ -116,7 +117,21 @@ const TRPC = () => {
   };
   return (
     <div className={styles.restbody}>
-      <FetchBox data={fetchData} loading={loading} />
+      <FetchBox
+        data={fetchData}
+        loading={loading}
+        mobileFetchBoxClicked={mobileFetchBoxClicked}
+        setmobileFetchBoxClicked={setmobileFetchBoxClicked}
+      />
+      <div
+        className="fetchMobile"
+        onClick={() => {
+          setmobileFetchBoxClicked(!mobileFetchBoxClicked);
+        }}
+        title="click to show/hide the fetchBox"
+      >
+        {mobileFetchBoxClicked ? "close box" : "FetchBox"}
+      </div>
       <div className={`cloudyBgDiv ${styles.herosection}`}>
         <div className={styles.data}>
           <h1>tRPC</h1>

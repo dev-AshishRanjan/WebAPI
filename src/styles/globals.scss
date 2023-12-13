@@ -328,3 +328,24 @@ select {
   //   display: none;
   // }
 }
+
+@media (max-width: 1000px) {
+  .fetchMobile {
+    // @include flexCenter;
+    padding: 0.5rem 1rem;
+    color: var(--text-2);
+    position: absolute;
+    right: 1rem;
+    top: 6rem;
+    height: 0;
+    width: 0;
+    z-index: 100;
+    width: 6rem;
+    height: 5rem;
+    background: var(--bg-1);
+    border: 2px dashed var(--text-1);
+    border-radius: 0.5rem;
+    transform: translateX(0rem) translateY(4rem);
+    rotate: -90deg;
+  }
+}

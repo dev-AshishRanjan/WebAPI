@@ -15,6 +15,7 @@ const REST = () => {
     "USE THE REST APIs by clicking on Routes",
   );
   const [loading, setLoading] = useState(false);
+  const [mobileFetchBoxClicked, setmobileFetchBoxClicked] = useState(false);
   const handleFetch = async ({ method, route, body, id }: fetch) => {
     setLoading(true);
 
@@ -87,7 +88,21 @@ const REST = () => {
   };
   return (
     <div className={styles.restbody}>
-      <FetchBox data={fetchData} loading={loading} />
+      <FetchBox
+        data={fetchData}
+        loading={loading}
+        mobileFetchBoxClicked={mobileFetchBoxClicked}
+        setmobileFetchBoxClicked={setmobileFetchBoxClicked}
+      />
+      <div
+        className="fetchMobile"
+        onClick={() => {
+          setmobileFetchBoxClicked(!mobileFetchBoxClicked);
+        }}
+        title="click to show/hide the fetchBox"
+      >
+        {mobileFetchBoxClicked ? "close box" : "FetchBox"}
+      </div>
       <div className={`cloudyBgDiv ${styles.herosection}`}>
         <div className={styles.data}>
           <h1>REST</h1>

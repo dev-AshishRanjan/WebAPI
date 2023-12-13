@@ -14,8 +14,12 @@
   overflow: hidden;
   line-height: 1.5rem;
   transition: all 0.3s ease-in;
+  z-index: 100;
   // word-break: break-all;
   // word-wrap: break-word;
+}
+.show {
+  display: block !important;
 }
 
 @media (max-width: 1000px) {
