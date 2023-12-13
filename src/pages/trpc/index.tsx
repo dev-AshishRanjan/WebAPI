@@ -1,12 +1,122 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "@/styles/Rest.module.scss";
 import { FaPlay } from "react-icons/fa";
 import TrpcCode from "@/database/TrpcCodes";
 import { CopyBlock, monoBlue } from "react-code-blocks";
+import FetchBox from "@/components/FetchBox";
+import { trpc } from "@/utils/client";
 
 const TRPC = () => {
+  const [fetchData, setFetchData] = useState(
+    "USE THE tRPC APIs by clicking on Routes",
+  );
+  const [loading, setLoading] = useState(false);
+  // hook calls : trpc
+  // let { data: crudReadQuery? erro?.datar: crudReadError }: any = trpc.crudRead.useQuery();
+  const crudReadQuery: any = trpc.crudRead.useQuery();
+  const createMutation: any = trpc.crudCreate.useMutation();
+  const updateMutation: any = trpc.crudUpdate.useMutation();
+  const deleteMutation: any = trpc.crudDelete.useMutation();
+  const { data: newsData, error: newsError }: any = trpc.news.useQuery({
+    type: "all",
+  });
+  const { data: sportsNewsData, error: sportsNewsError }: any =
+    trpc.news.useQuery({ type: "sports" });
+  const { data: movieData, error: movieError }: any = trpc.movie.useQuery();
+  const { data: animeData, error: animeError }: any = trpc.anime.useQuery();
+  const { data: mangaData, error: mangaError }: any = trpc.manga.useQuery();
+
+  const crudReadRefetch = async () => {
+    try {
+      // crudReadQuery.refetch()
+      crudReadQuery
+        .refetch()
+        .then((res: any) => {
+          setFetchData(JSON.stringify(res.data.data.slice(-10) || res.error));
+        })
+        .catch((err: any) => {
+          setFetchData(JSON.stringify(err.error));
+        });
+    } catch (error) {
+      console.log("Error refetching crudRead data : ", error);
+      setFetchData(JSON.stringify(error));
+    }
+  };
+
+  const handleFetch = async (num: Number) => {
+    setLoading(true);
+    let data: any;
+    if (num === 0) {
+      setFetchData(
+        JSON.stringify(
+          crudReadQuery.data.data.slice(-10) || crudReadQuery.error,
+        ),
+      );
+    }
+    if (num === 1) {
+      createMutation.mutate(
+        {
+          id: 1,
+          name: "New Item",
+          github: "new-item",
+        },
+        {
+          onSuccess: () => {
+            crudReadRefetch();
+            // setFetchData(JSON.stringify(createMutation));
+          },
+        },
+      );
+    }
+    if (num === 2) {
+      updateMutation.mutate(
+        {
+          id: crudReadQuery?.data?.data.slice(-1)[0]._id,
+          name: "Updated Item",
+          github: "updated-item",
+        },
+        {
+          onSuccess: () => {
+            crudReadRefetch();
+            // setFetchData(JSON.stringify(updateMutation));
+          },
+        },
+      );
+    }
+    if (num === 3) {
+      deleteMutation.mutate(
+        {
+          id: crudReadQuery?.data?.data.slice(-1)[0]._id,
+        },
+        {
+          onSuccess: () => {
+            crudReadRefetch();
+            // setFetchData(JSON.stringify(deleteMutation));
+          },
+        },
+      );
+    }
+    if (num === 4) {
+      setFetchData(JSON.stringify(newsData || newsError));
+    }
+    if (num === 5) {
+      setFetchData(JSON.stringify(sportsNewsData || sportsNewsError));
+    }
+    if (num === 6) {
+      setFetchData(JSON.stringify(movieData || movieError));
+    }
+    if (num === 7) {
+      setFetchData(JSON.stringify(animeData || animeError));
+    }
+    if (num === 8) {
+      setFetchData(JSON.stringify(mangaData || mangaError));
+    }
+
+    setLoading(false);
+  };
   return (
     <div className={styles.restbody}>
+      <FetchBox data={fetchData} loading={loading} />
       <div className={`cloudyBgDiv ${styles.herosection}`}>
         <div className={styles.data}>
           <h1>tRPC</h1>
@@ -74,7 +184,14 @@ const TRPC = () => {
           <h2>Routes</h2>
           {TrpcCode[0].map((code: any, index: number) => {
             return (
-              <div className="trpcCode" key={index}>
+              <div
+                className="trpcCode"
+                key={index}
+                title="Click on the route to see tRPC API in action"
+                onClick={() => {
+                  handleFetch(index);
+                }}
+              >
                 <span className="type">{code.type}</span>
                 <CopyBlock
                   text={code.code}
@@ -103,7 +220,14 @@ const TRPC = () => {
           </p>
           {TrpcCode[1].map((code: any, index: number) => {
             return (
-              <div className="trpcCode" key={index}>
+              <div
+                className="trpcCode"
+                key={index}
+                title="Click on the route to see tRPC API in action"
+                onClick={() => {
+                  handleFetch(4 + index);
+                }}
+              >
                 <span className="type">{code.type}</span>
                 <CopyBlock
                   text={code.code}
@@ -121,7 +245,14 @@ const TRPC = () => {
           </p>
           {TrpcCode[2].map((code: any, index: number) => {
             return (
-              <div className="trpcCode" key={index}>
+              <div
+                className="trpcCode"
+                key={index}
+                title="Click on the route to see tRPC API in action"
+                onClick={() => {
+                  handleFetch(5 + index);
+                }}
+              >
                 <span className="type">{code.type}</span>
                 <CopyBlock
                   text={code.code}
@@ -172,7 +303,14 @@ const TRPC = () => {
           <p>You can get high quality data for Movies.</p>
           {TrpcCode[3].map((code: any, index: number) => {
             return (
-              <div className="trpcCode" key={index}>
+              <div
+                className="trpcCode"
+                key={index}
+                title="Click on the route to see tRPC API in action"
+                onClick={() => {
+                  handleFetch(6 + index);
+                }}
+              >
                 <span className="type">{code.type}</span>
                 <CopyBlock
                   text={code.code}
@@ -196,7 +334,14 @@ const TRPC = () => {
           <p>You can get high quality data for Animes.</p>
           {TrpcCode[4].map((code: any, index: number) => {
             return (
-              <div className="trpcCode" key={index}>
+              <div
+                className="trpcCode"
+                key={index}
+                title="Click on the route to see tRPC API in action"
+                onClick={() => {
+                  handleFetch(7 + index);
+                }}
+              >
                 <span className="type">{code.type}</span>
                 <CopyBlock
                   text={code.code}
@@ -220,7 +365,14 @@ const TRPC = () => {
           <p>You can get high quality data for Manga.</p>
           {TrpcCode[5].map((code: any, index: number) => {
             return (
-              <div className="trpcCode" key={index}>
+              <div
+                className="trpcCode"
+                key={index}
+                title="Click on the route to see tRPC API in action"
+                onClick={() => {
+                  handleFetch(8 + index);
+                }}
+              >
                 <span className="type">{code.type}</span>
                 <CopyBlock
                   text={code.code}
