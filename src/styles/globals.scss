@@ -289,6 +289,11 @@ select {
   justify-content: center !important;
 }
 
+.fetchMobile {
+  // @include flexCenter;
+  display: none;
+}
+
 @media (max-width: 769px) {
   * {
     font-size: 16px;
@@ -332,6 +337,7 @@ select {
 @media (max-width: 1000px) {
   .fetchMobile {
     // @include flexCenter;
+    display: block;
     padding: 0.5rem 1rem;
     color: var(--text-2);
     position: absolute;
