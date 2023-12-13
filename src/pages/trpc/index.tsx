@@ -135,28 +135,28 @@ const TRPC = () => {
           Parameters given to "type" query :
           <div className="schema">
             <p>
-              0. <span>all</span>
+              1. <span>all</span>
             </p>
             <p>
-              1. <span>general</span>
+              2. <span>general</span>
             </p>
             <p>
-              2. <span>entertainment</span>
+              3. <span>entertainment</span>
             </p>
             <p>
-              3. <span>business</span>
+              4. <span>business</span>
             </p>
             <p>
-              4. <span>health</span>
+              5. <span>health</span>
             </p>
             <p>
-              5. <span>science</span>
+              6. <span>science</span>
             </p>
             <p>
-              6. <span>sports</span>
+              7. <span>sports</span>
             </p>
             <p>
-              7. <span>technology</span>
+              8. <span>technology</span>
             </p>
           </div>
         </div>

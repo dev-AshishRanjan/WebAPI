@@ -1,9 +1,9 @@
 @use "../styles/mixins.scss";
 .card1 {
   height: 15rem;
-  width: 20rem;
+  width: 18rem;
   border-radius: 0.7rem;
-  padding: 1rem;
+  padding: 0.5rem;
   background: var(--card-bg-0);
   backdrop-filter: blur(0.2rem);
   transform: translateY(-1rem);
@@ -22,6 +22,12 @@
     background: var(--card-bg-1);
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 100%, 0% 100%);
     animation: cardAnimate 2s ease-in infinite alternate;
+    h2 {
+      font-size: 1.1rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
   }
   .cardArrow {
     position: absolute;
@@ -92,7 +98,7 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 1350px) {
+@media (min-width: 769px) and (max-width: 1360px) {
   .card1 {
     transform: unset;
   }

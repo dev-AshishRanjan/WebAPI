@@ -15,7 +15,8 @@
       h1 {
         font-size: 3rem;
         color: var(--text-1);
-        font-family: "Ubuntu", serif;
+        font-family: "Montserrat", serif;
+        letter-spacing: -2px;
       }
       p {
         margin-top: 1rem;
@@ -39,7 +40,8 @@
       h1 {
         font-size: 3rem;
         color: var(--text-1);
-        font-family: "Ubuntu", serif;
+        font-family: "Montserrat", serif;
+        letter-spacing: -2px;
       }
       p {
         font-size: 1.4rem;
@@ -64,14 +66,16 @@
       h1 {
         font-size: 3rem;
         color: var(--text-1);
-        font-family: "Ubuntu", serif;
+        font-family: "Montserrat", serif;
+        letter-spacing: -2px;
         margin: 1rem 0;
       }
       p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         color: var(--text-2);
       }
       span {
+        font-size: 1.2rem;
         font-style: italic;
       }
     }
@@ -82,6 +86,8 @@
   .restbody {
     .herosection {
       padding-top: 3.5rem;
+      height: unset;
+      min-height: 100vh;
       .data {
         width: 100%;
         @include mixins.flexCenter;
