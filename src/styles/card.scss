@@ -14,6 +14,8 @@
   text-decoration: none;
   color: var(--text-1);
   transition: all 0.2s ease-in;
+  backdrop-filter: unset;
+  background: unset;
   .cardInner {
     border-radius: 0.7rem;
     padding: 1rem;
@@ -31,8 +33,8 @@
   }
   .cardArrow {
     position: absolute;
-    top: 0rem;
-    right: 0rem;
+    top: 1.5rem;
+    right: -0.3rem;
     // padding: 1.5rem;
     height: 3rem;
     width: 3rem;
@@ -88,6 +90,8 @@
 
 @media (max-width: 769px) {
   .card1 {
+    backdrop-filter: unset;
+    background: unset;
     transform: translateX(-1rem);
   }
   .card2 {
@@ -95,6 +99,14 @@
   }
   .card4 {
     transform: translateX(1rem);
+  }
+  @keyframes cardAnimate {
+    0% {
+      transform: translatex(1rem);
+    }
+    100% {
+      transform: translatex(0);
+    }
   }
 }
 
