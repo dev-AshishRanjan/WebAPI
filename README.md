@@ -12,6 +12,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/dev-AshishRanjan/WebAPI)
   
 ![GitHub repo size](https://img.shields.io/github/repo-size/dev-AshishRanjan/WebAPI)
+![Github LOC](https://tokei.rs/b1/github/dev-AshishRanjan/WebAPI)
+![Github Files](https://tokei.rs/b1/github/dev-AshishRanjan/WebAPI?category=files)
 
 ![Github](https://img.shields.io/github/license/dev-AshishRanjan/WebAPI)
 ![GitHub issues](https://img.shields.io/github/issues/dev-AshishRanjan/WebAPI)
