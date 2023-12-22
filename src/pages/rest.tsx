@@ -16,76 +16,75 @@ const REST = () => {
   );
   const [loading, setLoading] = useState(false);
   const [mobileFetchBoxClicked, setmobileFetchBoxClicked] = useState(false);
+  const [queryTime, setQueryTime] = useState<number | null>(null);
   const handleFetch = async ({ method, route, body, id }: fetch) => {
     setLoading(true);
+    const startTime = Date.now();
+    try {
+      if (method === "GET") {
+        const response = await fetch(`/${route}`);
+        const data = await response.json();
+        setFetchData(JSON.stringify(data));
+      }
+      if (method === "POST") {
+        const sendform = {
+          id: 10,
+          name: "new",
+          github: "dev",
+        };
+        const response = await fetch(`/${route}`, {
+          method: method,
+          body: JSON.stringify(sendform),
+          headers: { "Content-Type": "multipart/form-data" },
+        });
+        const data = await response.json();
+        console.log({ data });
+        setFetchData(JSON.stringify(data));
+      }
+      if (method === "PUT") {
+        const sendform = {
+          id: 101,
+          name: "Updated",
+          github: "dev",
+        };
+        const initialResponse = await fetch(`/${route}`);
+        const initialData = await initialResponse.json();
+        const tempId = initialData.data.slice(-1)[0]._id;
 
-    if (method === "GET") {
-      fetch(`/${route}`)
-        .then((req) => req.json())
-        .then((res) => {
-          setFetchData(JSON.stringify(res));
-          setLoading(false);
+        const putResponse = await fetch(`/${route}?id=${tempId}`, {
+          method: method,
+          body: JSON.stringify(sendform),
+          headers: { "Content-Type": "multipart/form-data" },
         });
-    }
-    if (method === "POST") {
-      const sendform = {
-        id: 10,
-        name: "new",
-        github: "dev",
-      };
-      fetch(`/${route}`, {
-        method: method,
-        body: JSON.stringify(sendform),
-        headers: { "Content-Type": "multipart/form-data" },
-      })
-        .then((req) => req.json())
-        .then((res) => {
-          console.log({ res });
-          setFetchData(JSON.stringify(res));
-          setLoading(false);
+        const putData = await putResponse.json();
+        console.log({ putData });
+        setFetchData(JSON.stringify(putData));
+      }
+      if (method === "DELETE") {
+        const initialResponse = await fetch(`/${route}`);
+        const initialData = await initialResponse.json();
+        const tempId = initialData.data.slice(-1)[0]._id;
+
+        const deleteResponse = await fetch(`/${route}?id=${tempId}`, {
+          method: method,
         });
-    }
-    if (method === "PUT") {
-      const sendform = {
-        id: 101,
-        name: "Updated",
-        github: "dev",
-      };
-      let tempId;
-      fetch(`/${route}`)
-        .then((req) => req.json())
-        .then((res) => {
-          tempId = res.data.slice(-1)[0]._id;
-          fetch(`/${route}?id=${tempId}`, {
-            method: method,
-            body: JSON.stringify(sendform),
-            headers: { "Content-Type": "multipart/form-data" },
-          })
-            .then((req) => req.json())
-            .then((res) => {
-              console.log({ res });
-              setFetchData(JSON.stringify(res));
-              setLoading(false);
-            });
-        });
-    }
-    if (method === "DELETE") {
-      let tempId;
-      fetch(`/${route}`)
-        .then((req) => req.json())
-        .then((res) => {
-          tempId = res.data.slice(-1)[0]._id;
-          fetch(`/${route}?id=${tempId}`, { method: method })
-            .then((req) => req.json())
-            .then((res) => {
-              console.log({ res });
-              setFetchData(JSON.stringify(res));
-              setLoading(false);
-              // handleFetch({ method: "GET", route: "api/rest/crud" });
-            });
-        });
+        const deleteData = await deleteResponse.json();
+        console.log({ deleteData });
+        setFetchData(JSON.stringify(deleteData));
+      }
+    } catch (error) {
+      console.error("Error handling fetch: ", error);
+      setFetchData(JSON.stringify(error));
+    } finally {
+      setLoading(false);
+      const endTime = Date.now();
+      console.log(
+        `Time taken for ${method} ${route}: ${endTime - startTime} ms`,
+      );
+      setQueryTime(endTime - startTime);
     }
   };
+
   return (
     <div className={styles.restbody}>
       <FetchBox
@@ -93,6 +92,7 @@ const REST = () => {
         loading={loading}
         mobileFetchBoxClicked={mobileFetchBoxClicked}
         setmobileFetchBoxClicked={setmobileFetchBoxClicked}
+        queryTime={queryTime}
       />
       <div
         className="fetchMobile"

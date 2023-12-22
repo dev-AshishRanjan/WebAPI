@@ -13,6 +13,7 @@ const TRPC = () => {
   );
   const [loading, setLoading] = useState(false);
   const [mobileFetchBoxClicked, setmobileFetchBoxClicked] = useState(false);
+  const [queryTime, setQueryTime] = useState<number | null>(null);
   // hook calls : trpc
   // let { data: crudReadQuery? erro?.datar: crudReadError }: any = trpc.crudRead.useQuery();
   const crudReadQuery: any = trpc.crudRead.useQuery();
@@ -45,77 +46,83 @@ const TRPC = () => {
     }
   };
 
-  const handleFetch = async (num: Number) => {
+  const handleFetch = async (num: number) => {
     setLoading(true);
-    let data: any;
-    if (num === 0) {
-      setFetchData(
-        JSON.stringify(
-          crudReadQuery.data.data.slice(-10) || crudReadQuery.error,
-        ),
-      );
-    }
-    if (num === 1) {
-      createMutation.mutate(
-        {
-          id: 1,
-          name: "New Item",
-          github: "new-item",
-        },
-        {
-          onSuccess: () => {
-            crudReadRefetch();
-            // setFetchData(JSON.stringify(createMutation));
+    const startTime = Date.now();
+    try {
+      if (num === 0) {
+        setFetchData(
+          JSON.stringify(
+            crudReadQuery.data.data.slice(-10) || crudReadQuery.error,
+          ),
+        );
+      }
+      if (num === 1) {
+        await createMutation.mutate(
+          {
+            id: 1,
+            name: "New Item",
+            github: "new-item",
           },
-        },
-      );
-    }
-    if (num === 2) {
-      updateMutation.mutate(
-        {
-          id: crudReadQuery?.data?.data.slice(-1)[0]._id,
-          name: "Updated Item",
-          github: "updated-item",
-        },
-        {
-          onSuccess: () => {
-            crudReadRefetch();
-            // setFetchData(JSON.stringify(updateMutation));
+          {
+            onSuccess: () => {
+              crudReadRefetch();
+            },
           },
-        },
-      );
-    }
-    if (num === 3) {
-      deleteMutation.mutate(
-        {
-          id: crudReadQuery?.data?.data.slice(-1)[0]._id,
-        },
-        {
-          onSuccess: () => {
-            crudReadRefetch();
-            // setFetchData(JSON.stringify(deleteMutation));
+        );
+      }
+      if (num === 2) {
+        await updateMutation.mutate(
+          {
+            id: crudReadQuery?.data?.data.slice(-1)[0]._id,
+            name: "Updated Item",
+            github: "updated-item",
           },
-        },
-      );
+          {
+            onSuccess: () => {
+              crudReadRefetch();
+            },
+          },
+        );
+      }
+      if (num === 3) {
+        await deleteMutation.mutate(
+          {
+            id: crudReadQuery?.data?.data.slice(-1)[0]._id,
+          },
+          {
+            onSuccess: () => {
+              crudReadRefetch();
+            },
+          },
+        );
+      }
+      if (num === 4) {
+        setFetchData(JSON.stringify(newsData || newsError));
+      }
+      if (num === 5) {
+        setFetchData(JSON.stringify(sportsNewsData || sportsNewsError));
+      }
+      if (num === 6) {
+        setFetchData(JSON.stringify(movieData || movieError));
+      }
+      if (num === 7) {
+        setFetchData(JSON.stringify(animeData || animeError));
+      }
+      if (num === 8) {
+        setFetchData(JSON.stringify(mangaData || mangaError));
+      }
+    } catch (error) {
+      console.error("Error handling fetch: ", error);
+      setFetchData(JSON.stringify(error));
+    } finally {
+      setLoading(false);
+      const endTime = Date.now();
+      console.log(`Time taken for tRPC call ${num}: ${endTime - startTime} ms`);
+      setQueryTime(endTime - startTime);
     }
-    if (num === 4) {
-      setFetchData(JSON.stringify(newsData || newsError));
-    }
-    if (num === 5) {
-      setFetchData(JSON.stringify(sportsNewsData || sportsNewsError));
-    }
-    if (num === 6) {
-      setFetchData(JSON.stringify(movieData || movieError));
-    }
-    if (num === 7) {
-      setFetchData(JSON.stringify(animeData || animeError));
-    }
-    if (num === 8) {
-      setFetchData(JSON.stringify(mangaData || mangaError));
-    }
-
-    setLoading(false);
   };
+
   return (
     <div className={styles.restbody}>
       <FetchBox
@@ -123,6 +130,7 @@ const TRPC = () => {
         loading={loading}
         mobileFetchBoxClicked={mobileFetchBoxClicked}
         setmobileFetchBoxClicked={setmobileFetchBoxClicked}
+        queryTime={queryTime}
       />
       <div
         className="fetchMobile"

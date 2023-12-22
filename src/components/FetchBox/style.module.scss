@@ -17,6 +17,14 @@
   z-index: 100;
   // word-break: break-all;
   // word-wrap: break-word;
+  .queryTime {
+    padding: 0 0 0.3rem 0;
+    // background: var(--text-1);
+    color: var(--text-2);
+    text-align: center;
+    border-bottom: 2px dashed var(--text-1);
+    margin-bottom: 0.3rem;
+  }
 }
 .show {
   display: block !important;

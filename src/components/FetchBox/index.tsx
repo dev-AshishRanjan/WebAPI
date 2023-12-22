@@ -6,12 +6,22 @@ const FetchBox = ({
   loading,
   mobileFetchBoxClicked,
   setmobileFetchBoxClicked,
+  queryTime,
 }: any) => {
   return (
     <div
       className={`${mobileFetchBoxClicked && styles.show} ${styles.fetchBox}`}
     >
-      {loading ? <p>Loading...</p> : data}
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <>
+          {queryTime !== null && (
+            <p className={styles.queryTime}>Query time : {queryTime} ms</p>
+          )}
+          {data}
+        </>
+      )}
     </div>
   );
 };
