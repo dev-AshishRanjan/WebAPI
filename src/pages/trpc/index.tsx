@@ -5,6 +5,7 @@ import TrpcCode from "@/database/TrpcCodes";
 import { CopyBlock, monoBlue } from "react-code-blocks";
 import FetchBox from "@/components/FetchBox";
 import { trpc } from "@/utils/client";
+import Link from "next/link";
 
 const TRPC = () => {
   const [fetchData, setFetchData] = useState(
@@ -158,9 +159,9 @@ const TRPC = () => {
           </div>
           <p>
             Demo Page for tRPC :{" "}
-            <a className="btn" href="/trpc/example">
+            <Link className="btn" href="/trpc/example">
               /trpc/example
-            </a>{" "}
+            </Link>{" "}
           </p>
         </div>
       </div>
