@@ -12,7 +12,7 @@
   padding: 1rem 1.5rem;
   justify-content: flex-end !important;
   color: var(--white);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
   .logo {
     font-size: 1.5rem;
     font-weight: 900;
@@ -40,7 +40,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transition: all 0.2s ease-in;
+      transition: all 0.1s ease-in;
       // box-shadow: 2px 2px 5px var(--bg-3);
       &:active {
         color: var(--text-2);

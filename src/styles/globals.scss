@@ -8,20 +8,39 @@
 // 3. Evening : yellow, orange, red
 // 4. Night : voilet,black
 
-:root {
-  --bg-1: #c4c7de;
-  --bg-2: #edeaec;
-  --bg-3: #8a5e48;
-  --text-1: #5b2328;
-  --text-2: #39374d;
-  --text-3: #e8e0e0;
-  --firefly-nor: var(--bg-1);
-  --firefly-bri: var(--bg-3);
-  --card-bg-0: #c4c7de45; //bg-1 : 45
-  --card-bg-1: var(--bg-2);
-  --card-bg-2: var(--bg-1);
-  --route-bg: var(--bg-1);
-  --cloud-bg: #ccd4de;
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-1: #c4c7de;
+    --bg-2: #edeaec;
+    --bg-3: #8a5e48;
+    --text-1: #5b2328;
+    --text-2: #39374d;
+    --text-3: #e8e0e0;
+    --firefly-nor: var(--bg-1);
+    --firefly-bri: var(--bg-3);
+    --card-bg-0: #c4c7de45; //bg-1 : 45
+    --card-bg-1: var(--bg-2);
+    --card-bg-2: var(--bg-1);
+    --route-bg: var(--bg-1);
+    --cloud-bg: #ccd4de;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-1: #221743;
+    --bg-2: #101623;
+    --bg-3: purple;
+    --text-1: #c4c7de;
+    --text-2: #e8e0e0;
+    --text-3: #8a5e48;
+    --firefly-nor: var(--bg-1);
+    --firefly-bri: var(--bg-3);
+    --card-bg-0: #22174345; //bg-1 : 45
+    --card-bg-1: var(--bg-2);
+    --card-bg-2: var(--bg-1);
+    --route-bg: var(--bg-1);
+    --cloud-bg: #2d234c;
+  }
 }
 
 .morning {
@@ -133,7 +152,7 @@ h2 {
   padding: 0.2rem 0.5rem;
   border-radius: 1rem;
   border: 1px solid var(--text-1);
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
   cursor: pointer;
   &:hover {
     background: var(--text-1);
@@ -153,7 +172,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
   cursor: pointer;
   display: inline-block;
   @include flexCenter;
@@ -202,7 +221,7 @@ select {
   border: 2px dashed var(--text-1);
   overflow-x: hidden;
   padding-right: 1rem;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
   cursor: pointer;
   color: var(--text-1);
   div {
